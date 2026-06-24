@@ -244,7 +244,6 @@ function caractères() {
 	for (bouton of document.querySelectorAll("button")) {bouton.style.display = "none";}
 	for (titre of document.querySelectorAll("h1")) {
 		texte = titre.innerText.toUpperCase();
-		// titre.innerHTML = "<hr>";
 		titre.innerHTML = "";
 		compte = 0;
 		libreBasDroite = false;
@@ -274,6 +273,5 @@ function caractères() {
 			chemin = "https://lecavalierriant.github.io/polygramme/";
 			titre.innerHTML += `<img src = ${chemin}${spécial ? `speciaux/${spécial}` : `${caractère}`}.png alt = ${spécial ? `&${spécial};` : caractère} class = "${classes.join(' ')}">`;
 		}
-		// titre.innerHTML += "<hr>";
 	}
 }
