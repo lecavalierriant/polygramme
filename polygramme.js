@@ -50,6 +50,7 @@ spéciaux = {
 	",": "comma",
 	"´": "DiacriticalAcute",
 	"˙": "DiacriticalDot",
+	"˜": "DiacriticalTilde",
 	"`": "DiacriticalGrave",
 	"ˇ": "Hacek",
 	"^": "Hat",
