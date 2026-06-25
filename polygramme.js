@@ -241,8 +241,7 @@ quartHautGauche = [
 ];
 
 function caractères() {
-	for (bouton of document.querySelectorAll("button")) {bouton.style.display = "none";}
-	for (titre of document.querySelectorAll("h1")) {
+	for (titre of document.querySelectorAll(".polygramme")) {
 		texte = titre.innerText.toUpperCase();
 		titre.innerHTML = "";
 		compte = 0;
