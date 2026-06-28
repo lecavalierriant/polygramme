@@ -1,4 +1,16 @@
-.caractère {border-radius: 0;}
+.caractère {
+	border-radius: 0;
+	margin-top: 7.5px;
+	height: 25px;
+}
+.haut {
+	margin-top: 0;
+	height: 31.5px;
+}
+.bas {
+	margin-bottom: -6.25px;
+	height: 31.5px;
+}
 h1 .caractère {
 	margin-top: 15px;
 	height: 50px;
