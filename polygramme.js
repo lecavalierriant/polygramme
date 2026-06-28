@@ -276,7 +276,7 @@ quartHautGauche = [
 
 function caractères() {
 	for (titre of document.querySelectorAll(".polygramme")) {
-		texte = titre.innerText;
+		texte = titre.innerText.toUpperCase();
 		titre.innerHTML = "";
 		compte = 0;
 		libreBasDroite = false;
