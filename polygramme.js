@@ -83,6 +83,8 @@ bas = [
 ];
 
 spéciaux = {
+	"~": "0x7E",
+	"-": "0x2D",
 	"&": "amp",
 	"'": "apos",
 	"˘": "breve",
@@ -96,6 +98,7 @@ spéciaux = {
 	"!": "excl",
 	"ˇ": "Hacek",
 	"^": "Hat",
+	"—": "mdash",
 	"%": "percnt",
 	".": "period",
 	";": "semi",
