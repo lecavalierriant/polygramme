@@ -316,8 +316,13 @@ function caractères() {
 			libreRondHautDroite = rondHautDroite.includes(caractère);
 			libreRondBasDroite = rondBasDroite.includes(caractère);
 			spécial = spéciaux[caractère];
-			chemin = "https://lecavalierriant.github.io/polygramme/";
-			titre.innerHTML += `<img src = ${chemin}${spécial ? `speciaux/${spécial}` : `${caractère}`}.png alt = ${spécial ? `&${spécial};` : caractère} class = "${classes.join(' ')}">`;
+			chemin = "../polygramme/";
+			alt = "";
+			if (spécial) {
+				if (spécial.startsWith("0x")) {alt = `&${spécial.replace("0x", "#x")};`; console.log(alt)}
+				else {alt = `&${spécial};`;}
+			}
+			titre.innerHTML += `<img src="${chemin}${spécial ? `speciaux/${spécial}` : `${caractère}`}.png" alt="${alt}" class="${classes.join(' ')}">`;
 		}
 	}
 }
