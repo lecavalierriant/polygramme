@@ -62,7 +62,6 @@ function copier() {
 		}
 	}
 	$données | Export-Csv -Path "$PSScriptRoot\polygramme.csv" -NoTypeInformation -Encoding UTF8
-	Write-Host "Copie terminée !"
 }
 
 copier
