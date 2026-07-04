@@ -6,7 +6,7 @@
 		@{original = "Ă"; copies = @(<#"", #>"Ӑ")},
 	@{original = "Æ"; copies = @(<#"", #>"Ӕ")},
 	@{original = "B"; copies = @("Β", "В")},
-	@{original = "C"; copies = @("Ϲ", "С", "(")},
+	@{original = "C"; copies = @("Ϲ", "С", "lpar")},
 	@{original = "E"; copies = @("Ε", "Е")},
 		@{original = "É"; copies = @("Έ")},
 		@{original = "È"; copies = @(<#"", #>"Ѐ")},
