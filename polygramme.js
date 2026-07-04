@@ -327,12 +327,12 @@ function caractères() {
 			libreRondBasDroite = rondBasDroite.includes(caractère);
 			spécial = spéciaux[caractère];
 			chemin = "../polygramme/";
-			alt = "";
+			alt = caractère;
 			if (spécial) {
-				if (spécial.startsWith("0x")) {alt = `&${spécial.replace("0x", "#x")};`; console.log(alt)}
+				if (spécial.startsWith("0x")) {alt = `&${spécial.replace("0x", "#x")};`;}
 				else {alt = `&${spécial};`;}
 			}
-			titre.innerHTML += `<img src="${chemin}${spécial ? `speciaux/${spécial}` : `${caractère}`}.png" alt="${alt}" class="${classes.join(' ')}">`;
+			titre.innerHTML += `<img src = "${chemin}${spécial ? `speciaux/${spécial}` : `${caractère}`}.png" alt = "${alt}" class = "${classes.join(' ')}">`;
 		}
 	}
 }
