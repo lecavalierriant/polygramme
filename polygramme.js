@@ -105,6 +105,7 @@ spéciaux = {
 	"—": "mdash",
 	"%": "percnt",
 	".": "period",
+	")": "rpar",
 	";": "semi",
 	"/": "sol",
 	"¯": "strns",
