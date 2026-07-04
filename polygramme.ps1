@@ -1,7 +1,7 @@
 ﻿$correspondances = @(
 	@{original = "speciaux/apos"; copies = @("speciaux/DiacriticalAcute")},
 	@{original = "A"; copies = @("Α", "А")},
-		@{original = "Á"; copies = @("Ά")},
+		@{original = "Á"; copies = @("Ά", "Ά")},
 		@{original = "Ä"; copies = @(<#"", #>"Ӓ")},
 		@{original = "Ă"; copies = @(<#"", #>"Ӑ")},
 	@{original = "Æ"; copies = @(<#"", #>"Ӕ")},
