@@ -91,6 +91,7 @@ spéciaux = {
 	"&": "amp",
 	"'": "apos",
 	"˘": "breve",
+	"¸": "cedil",
 	"·": "centerdot",
 	":": "colon",
 	",": "comma",
