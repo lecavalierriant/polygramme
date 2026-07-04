@@ -101,6 +101,7 @@ spéciaux = {
 	"!": "excl",
 	"ˇ": "Hacek",
 	"^": "Hat",
+	"(": "lpar",
 	"—": "mdash",
 	"%": "percnt",
 	".": "period",
