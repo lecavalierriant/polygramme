@@ -108,6 +108,7 @@ spéciaux = {
 	"…": "mldr",
 	"%": "percnt",
 	".": "period",
+	"?": "quest",
 	")": "rpar",
 	";": "semi",
 	"/": "sol",
