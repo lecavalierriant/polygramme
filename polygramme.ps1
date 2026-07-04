@@ -2,6 +2,7 @@
 	@{original = "speciaux/apos"; copies = @("speciaux/DiacriticalAcute")},
 	@{original = "A"; copies = @("Α", "А")},
 		@{original = "Á"; copies = @("Ά", "Ά")},
+		@{original = "À"; copies = @("Ὰ")},
 		@{original = "Ä"; copies = @(<#"", #>"Ӓ")},
 		@{original = "Ă"; copies = @(<#"", #>"Ӑ")},
 	@{original = "Æ"; copies = @(<#"", #>"Ӕ")},
