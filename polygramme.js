@@ -96,6 +96,7 @@ spéciaux = {
 	",": "comma",
 	"´": "DiacriticalAcute",
 	"˙": "DiacriticalDot",
+	"˝": "DiacriticalDoubleAcute",
 	"`": "DiacriticalGrave",
 	"˜": "DiacriticalTilde",
 	"!": "excl",
