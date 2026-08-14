@@ -69,6 +69,17 @@ function copier() {
 
 function lister() {
 	$lignes = @()
+	$lignes += '<html lang = "fr">
+<head>
+	<link rel = "stylesheet" href = "../lecavalierriant/lecavalierriant.css">
+	<link rel = "stylesheet" href = "polygramme.css">
+	<link rel = "icon" href = "A.png">
+	<script src = "polygramme.js"></script>
+	<title>Polygramme</title>
+</head>
+<body onload = "caractères()">
+
+<p class = "polygramme">'
 	$fichiers = Get-ChildItem -Path $PSScriptRoot -File -Recurse -Include *.png
 	$lignes += $fichiers | ForEach-Object {"	" + $_.BaseName}
 	$lignes += '</p>
