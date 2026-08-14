@@ -1,6 +1,9 @@
 ﻿$correspondances = @(
+
 	@{original = "speciaux/apos"; copies = @("speciaux/DiacriticalAcute")},
 	@{original = "speciaux/DiacriticalTilde"; copies = @("speciaux/0x1FC0")},
+	
+	# lt copies = @("gr", "ru", "00")
 	@{original = "A"; copies = @("Α", "А")},
 		@{original = "Á"; copies = @("Ά", "Ά")},
 		@{original = "À"; copies = @("Ὰ")},
@@ -36,14 +39,20 @@
 		@{original = "Ÿ"; copies = @("Ϋ", "Ӱ")},
 		@{original = "Ȳ"; copies = @(<#"", #>"Ӯ")},
 	@{original = "Z"; copies = @("Ζ")},
+
+	# gr copies = @("ru", "00")
 	@{original = "Γ"; copies = @("Г")},
 	@{original = "Δ"; copies = @("Д")},
 	@{original = "Θ"; copies = @("Ѳ")},
 	@{original = "Λ"; copies = @("Л")},
 	@{original = "Π"; copies = @("П")},
 	@{original = "Φ"; copies = @("Ф")},
+
+	# ru copies = @("00")
 	@{original = "З"; copies = @("3")},
 	@{original = "Ч"; copies = @("4")}
+
+	# 00 copies = @("")
 )
 
 function copier() {
