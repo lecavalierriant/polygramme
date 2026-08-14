@@ -71,6 +71,10 @@ function lister() {
 	$lignes = @()
 	$fichiers = Get-ChildItem -Path $PSScriptRoot -File -Recurse -Include *.png
 	$lignes += $fichiers | ForEach-Object {"	" + $_.BaseName}
+	$lignes += '</p>
+
+</body>
+</html>'
 	$lignes | Out-File -FilePath "$PSScriptRoot\polygramme.html" -Encoding utf8
 }
 
