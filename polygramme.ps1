@@ -70,7 +70,7 @@ function copier() {
 function lister() {
 	$lignes = @()
 	$fichiers = Get-ChildItem -Path $PSScriptRoot -File -Recurse -Include *.png
-	$lignes += $fichiers | ForEach-Object {"\t" + $_.BaseName}
+	$lignes += $fichiers | ForEach-Object {"	" + $_.BaseName}
 	$lignes | Out-File -FilePath "$PSScriptRoot\polygramme.html" -Encoding utf8
 }
 
