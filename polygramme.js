@@ -114,6 +114,7 @@ spéciaux = {
 	"%": "percnt",
 	".": "period",
 	"?": "quest",
+	"˚": "ring",
 	")": "rpar",
 	";": "semi",
 	"/": "sol",
