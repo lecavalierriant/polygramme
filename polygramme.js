@@ -105,6 +105,7 @@ spéciaux = {
 	"˝": "DiacriticalDoubleAcute",
 	"`": "DiacriticalGrave",
 	"˜": "DiacriticalTilde",
+	"=": "equals",
 	"!": "excl",
 	"ˇ": "Hacek",
 	"^": "Hat",
