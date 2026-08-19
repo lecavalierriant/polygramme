@@ -189,13 +189,6 @@ rondBasGauche = [
 	"Є",
 ];
 
-quartBasGauche = [
-	"&",
-	"U",
-	"6",
-	"8",
-];
-
 hautDroite = [
 	// lt
 	"A", "À", "Á", "Â", "Ä",
