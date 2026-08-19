@@ -253,17 +253,6 @@ rondHautGauche = [
 	"Є",
 ];
 
-quartHautGauche = [
-	"&",
-	"8",
-	"9",
-	// lt
-	"S",
-	// gr
-	// ru
-	"Я",
-];
-
 function caractères() {
 	for (titre of document.querySelectorAll(".polygramme")) {
 		texte = titre.innerText.toUpperCase();
