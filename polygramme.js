@@ -156,24 +156,6 @@ rondBasDroite = [
 	"Ю",
 ];
 
-quartBasDroite = [
-	"5",
-	"6",
-	"8",
-	// lt
-	"B",
-	"J",
-	"S",
-	"U",
-	// gr
-	// ru
-	"3",
-	"Б",
-	"З",
-	"ъ",
-	"Ь",
-];
-
 basGauche = [
 	"4",
 	// lt
