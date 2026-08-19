@@ -221,20 +221,6 @@ rondHautDroite = [
 	"Ю",
 ];
 
-quartHautDroite = [
-	"2",
-	"3",
-	"8",
-	"9",
-	// lt
-	"B",
-	"P",
-	"R",
-	// gr
-	// ru
-	"З",
-];
-
 hautGauche = [
 	// lt
 	"A", "À", "Á", "Â", "Ä", "Æ",
