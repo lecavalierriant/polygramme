@@ -2,6 +2,7 @@
 
 	@{original = "speciaux/apos"; copies = @("speciaux/DiacriticalAcute")},
 	@{original = "speciaux/DiacriticalTilde"; copies = @("speciaux/0x1FC0")},
+	@{original = "speciaux/ring"; copies = @("speciaux/deg")},
 	
 	# lt copies = @("")
 	@{original = "A"; copies = @("Α", "А")},
