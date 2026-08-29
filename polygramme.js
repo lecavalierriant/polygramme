@@ -100,6 +100,7 @@ spéciaux = {
 	"·": "centerdot",
 	":": "colon",
 	",": "comma",
+	"°": "deg",
 	"´": "DiacriticalAcute",
 	"˙": "DiacriticalDot",
 	"˝": "DiacriticalDoubleAcute",
