@@ -58,6 +58,7 @@
 )
 
 function copier() {
+	Write-Host "Copie en cours..."
 	$données = [System.Collections.Generic.List[PSCustomObject]]::new()
 	foreach ($lettre in $correspondances) {
 		$données.Add(
@@ -76,9 +77,11 @@ function copier() {
 		}
 	}
 	$données | Export-Csv -Path "$PSScriptRoot\polygramme.csv" -NoTypeInformation -Encoding UTF8
+	Write-Host "Copie terminée !"
 }
 
 function lister() {
+	Write-Host "Liste en cours..."
 	$lignes = @()
 	$lignes += '<html lang = "fr">
 <head>
@@ -98,6 +101,7 @@ function lister() {
 </body>
 </html>'
 	$lignes | Out-File -FilePath "$PSScriptRoot\polygramme.html" -Encoding utf8
+	Write-Host "Liste terminée !"
 }
 
 copier
