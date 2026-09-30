@@ -1,0 +1,297 @@
+hauts = [
+	"'", "!", "?", "°",
+
+	          "´", "`", "˙", "^", "¨", "ˇ", "˘", "¯", "˜", "˚", "˝",
+	// lt
+	          "Á", "À", "Ȧ", "Â", "Ä", "Ǎ", "Ă", "Ā", "Ã", "Å",      "Ȁ", "Ȃ",
+	          "Ǽ",                               "Ǣ",
+	                    "Ḃ",
+	          "Ć",      "Ċ", "Ĉ",      "Č",
+	                    "Ḋ",           "Ď",
+	          "É", "È", "Ė", "Ê", "Ë", "Ě", "Ĕ", "Ē", "Ẽ",           "Ȅ", "Ȇ",
+	                    "Ḟ",
+	          "Ǵ",      "Ġ", "Ĝ",      "Ǧ", "Ğ", "Ḡ",
+	                    "Ḣ", "Ĥ", "Ḧ", "Ȟ",
+	          "Í", "Ì", "İ", "Î", "Ï", "Ǐ", "Ĭ", "Ī", "Ĩ",           "Ȉ", "Ȋ",
+	                         "Ĵ",
+	          "Ḱ",                          "Ǩ",
+	          "Ĺ",                     "Ľ",
+	          "Ḿ",      "Ṁ",
+	          "Ń", "Ǹ", "Ṅ",           "Ň",           "Ñ",
+	          "Ó", "Ò", "Ȯ", "Ô", "Ö", "Ǒ", "Ŏ", "Ō", "Õ",      "Ő", "Ȍ", "Ȏ",
+	          "Ṕ",      "Ṗ",
+	          "Ŕ",      "Ṙ",           "Ř",                          "Ȑ", "Ȓ",
+	          "Ś",      "Ṡ", "Ŝ",      "Š",
+	                    "Ṫ",           "Ť",
+	          "Ú", "Ù",      "Û", "Ü", "Ǔ", "Ŭ", "Ū", "Ũ", "Ů", "Ű", "Ȕ", "Ȗ",
+	                                                  "Ṽ",
+	          "Ẃ", "Ẁ", "Ẇ", "Ŵ", "Ẅ",
+	                    "Ẋ",      "Ẍ",
+	          "Ý", "Ỳ", "Ẏ", "Ŷ", "Ÿ",           "Ȳ", "Ỹ",
+	          "Ź",      "Ż", "Ẑ",      "Ž",
+	// gr
+	     "Ά", "Ά", "Ὰ",                     "Ᾰ", "Ᾱ",
+	     "Έ", "Έ", "Ὲ",
+	     "Ή",
+	     "Ί",
+	                              "Ϊ",
+	     "Ό",
+	     "Ύ",
+	                              "Ϋ",
+	     "Ώ",
+	// ru
+	                              "Ӓ",      "Ӑ",
+	          "Ѓ",
+	               "Ѐ",           "Ё",      "Ӗ",
+	                              "Ӝ",      "Ӂ",
+	                              "Ӟ",
+	               "Ѝ",           "Ӥ",      "Й", "Ӣ",
+	                              "Ї",
+	          "Ќ",
+	                              "Ӧ",
+	                              "Ӱ",      "Ў", "Ӯ",           "Ӳ",
+	                              "Ӵ",
+	                              "Ӹ",
+	                              "Ӭ",
+];
+
+bas = [
+	",", ";",
+	          "ꞈ", "ˍ", "¸",
+	// lt
+	     "Ạ",                               "Ḁ",
+	     "Ḅ",      "Ḇ",
+	                    "Ç",
+	     "Ḍ", "Ḓ", "Ḏ", "Ḑ",
+	     "Ẹ", "Ḙ",      "Ȩ", "Ḛ",
+	                    "Ģ",
+	     "Ḥ",           "Ḩ",           "Ḫ",
+	     "Ị",                "Ḭ",
+	     "Ḳ",      "Ḵ",
+	     "Ḷ", "Ḽ", "Ḻ", "Ļ",
+	     "Ṇ", "Ṋ", "Ṉ",
+	     "Ọ",
+	"Q",
+	     "Ṛ",      "Ṟ",
+	     "Ṣ",           "Ş",
+	     "Ṭ", "Ṱ", "Ṯ", "Ţ",
+	     "Ụ", "Ṷ",           "Ṵ", "Ṳ",
+	     "Ṿ",
+	     "Ẉ",
+	     "Ỵ",
+	     "Ẓ",      "Ẕ",
+	// gr
+	// ru
+	"Ҵ",
+	"Ц",
+	"Щ",
+];
+
+spéciaux = {
+	"῀": "0x1FC0",
+	"ˍ": "0x2CD",
+	"-": "0x2D",
+	"~": "0x7E",
+	"ꞈ": "0xA788",
+	"&": "amp",
+	"'": "apos",
+	"˘": "breve",
+	"¸": "cedil",
+	"·": "centerdot",
+	":": "colon",
+	",": "comma",
+	"°": "deg",
+	"´": "DiacriticalAcute",
+	"˙": "DiacriticalDot",
+	"˝": "DiacriticalDoubleAcute",
+	"`": "DiacriticalGrave",
+	"˜": "DiacriticalTilde",
+	"=": "equals",
+	"!": "excl",
+	"ˇ": "Hacek",
+	"^": "Hat",
+	"(": "lpar",
+	"—": "mdash",
+	"…": "mldr",
+	"%": "percnt",
+	".": "period",
+	"?": "quest",
+	"˚": "ring",
+	")": "rpar",
+	";": "semi",
+	"/": "sol",
+	"¯": "strns",
+	"¨": "uml",
+}
+
+basDroite = [
+	"7",
+	// lt
+	"F",
+	"P",
+	"T",
+	"V",
+	"W",
+	"Y", "Ỳ", "Ý", "Ŷ", "Ÿ",
+	// gr
+	"Γ",
+	"Ύ",
+	"Ψ",
+	// ru
+	"У",
+];
+
+rondBasDroite = [
+	"0",
+	"9",
+	// lt
+	"D", "Đ", "Ð",
+	"O", "Ò", "Ó", "Ô", "Ö", "Ø",
+	"Q",
+	// gr
+	"Ό",
+	"Θ",
+	"Φ",
+	// ru
+	"Э",
+	"Ю",
+];
+
+basGauche = [
+	"4",
+	// lt
+	"T",
+	"V",
+	"W",
+	"Y", "Ỳ", "Ý", "Ŷ", "Ÿ",
+	// gr
+	"Ψ",
+	"Ύ",
+	// ru
+	"Ч",
+	"ъ",
+	"У",
+];
+
+rondBasGauche = [
+	"0",
+	// lt
+	"C", "Ç",
+	"Ð",
+	"G",
+	"O", "Ò", "Ó", "Ô", "Ö", "Œ",
+	"Q",
+	// gr
+	"Ό",
+	"C",
+	"Θ",
+	"Φ",
+	// ru
+	"Є",
+];
+
+hautDroite = [
+	// lt
+	"A", "À", "Á", "Â", "Ä",
+	"L",
+	"M",
+	// gr
+	"Ά",
+	"Δ",
+	"Λ",
+	"Μ",
+	// ru
+	"Д",
+	"ъ",
+	"Ь",
+];
+
+rondHautDroite = [
+	"0",
+	// lt
+	"D", "Ð",
+	"O", "Ò", "Ó", "Ô", "Ö",
+	"Q",
+	// gr
+	"Ό",
+	"Θ",
+	"Φ",
+	"Ω",
+	// ru
+	"Э",
+	"Ю",
+];
+
+hautGauche = [
+	// lt
+	"A", "À", "Á", "Â", "Ä", "Æ",
+	"J",
+	"M",
+	// gr
+	"Ά",
+	"Δ",
+	"Λ",
+	"Μ",
+	// ru
+];
+
+rondHautGauche = [
+	"0",
+	"6",
+	// lt
+	"C", "Ç",
+	"Ð",
+	"G",
+	"O", "Ò", "Ó", "Ô", "Ö", "Ø", "Œ",
+	"Q",
+	// gr
+	"C",
+	"Ό",
+	"Θ",
+	"Φ",
+	"Ω",
+	// ru
+	"Є",
+];
+
+window.addEventListener("load", () => {heraldix();});
+
+function heraldix() {
+	for (texte of document.querySelectorAll(".heraldix")) {
+		contenu = "";
+		compte = 0;
+		libreBasDroite = false;
+		libreHautDroite = false;
+		libreRondBasDroite = false;
+		libreRondHautDroite = false;
+		for (caractère of texte.innerText.toUpperCase()) {
+			compte++;
+			if (caractère == " ") {
+				if (compte > 14) {
+					contenu += "<br>";
+					compte = 0;
+				} else {contenu += "<span class = espace> </span>";}
+				continue;
+			}
+			classes = ["caractère"];
+			if (hauts.includes(caractère)) classes.push("haut");
+			else if (bas.includes(caractère)) classes.push("bas");
+			if ((libreBasDroite && hautGauche.includes(caractère)) || (libreHautDroite && basGauche.includes(caractère))) {classes.push("décalage");}
+			if ((libreBasDroite && rondHautGauche.includes(caractère)) || (libreHautDroite && rondBasGauche.includes(caractère))) {classes.push("petit-décalage");}
+			if ((libreRondBasDroite && hautGauche.includes(caractère)) || (libreRondHautDroite && basGauche.includes(caractère))) {classes.push("petit-décalage");}
+			libreHautDroite = hautDroite.includes(caractère);
+			libreBasDroite = basDroite.includes(caractère);
+			libreRondHautDroite = rondHautDroite.includes(caractère);
+			libreRondBasDroite = rondBasDroite.includes(caractère);
+			spécial = spéciaux[caractère];
+			chemin = "C:/Users/Artus de Chavagnac/polygramme/heraldix/";
+			alt = caractère;
+			if (spécial) {
+				if (spécial.startsWith("0x")) {alt = `&${spécial.replace("0x", "#x")};`;}
+				else {alt = `&${spécial};`;}
+			}
+			contenu += `<img src = "${chemin}${spécial ? `speciaux/${spécial}` : `${caractère}`}.png" alt = "${alt}" class = "${classes.join(' ')}">`;
+		}
+		texte.innerHTML = contenu;
+	}
+}
