@@ -1,0 +1,7 @@
+.lineaire .caractère {
+	pointer-events: none;
+	filter: invert(1);
+}
+h1.lineaire .caractère {width: 70px;}
+h2.lineaire .caractère {width: 50px;}
+p.lineaire .caractère {width: 20px}
