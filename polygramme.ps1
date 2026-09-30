@@ -91,7 +91,7 @@ function lister() {
 	<script src = "polygramme.js"></script>
 	<title>Polygramme</title>
 </head>
-<body onload = "caractères()">
+<body>
 
 <p class = "polygramme">'
 	$fichiers = Get-ChildItem -Path $PSScriptRoot -File -Recurse -Include *.png
