@@ -254,22 +254,23 @@ rondHautGauche = [
 	"Є",
 ];
 
-function caractères() {
-	for (titre of document.querySelectorAll(".polygramme")) {
-		texte = titre.innerText.toUpperCase();
-		titre.innerHTML = "";
+window.addEventListener("load", (event) => {polygramme();});
+
+function polygramme() {
+	for (texte of document.querySelectorAll(".polygramme")) {
+		contenu = "";
 		compte = 0;
 		libreBasDroite = false;
 		libreHautDroite = false;
 		libreRondBasDroite = false;
 		libreRondHautDroite = false;
-		for (caractère of texte) {
+		for (caractère of texte.innerText.toUpperCase()) {
 			compte++;
 			if (caractère == " ") {
 				if (compte > 14) {
-					titre.innerHTML += "<br>";
+					contenu += "<br>";
 					compte = 0;
-				} else {titre.innerHTML += "<span class = espace> </span>";}
+				} else {contenu += "<span class = espace> </span>";}
 				continue;
 			}
 			classes = ["caractère"];
@@ -283,13 +284,14 @@ function caractères() {
 			libreRondHautDroite = rondHautDroite.includes(caractère);
 			libreRondBasDroite = rondBasDroite.includes(caractère);
 			spécial = spéciaux[caractère];
-			chemin = "../polygramme/";
+			chemin = "https://lecavalierriant.github.io/polygramme/";
 			alt = caractère;
 			if (spécial) {
 				if (spécial.startsWith("0x")) {alt = `&${spécial.replace("0x", "#x")};`;}
 				else {alt = `&${spécial};`;}
 			}
-			titre.innerHTML += `<img src = "${chemin}${spécial ? `speciaux/${spécial}` : `${caractère}`}.png" alt = "${alt}" class = "${classes.join(' ')}">`;
+			contenu += `<img src = "${chemin}${spécial ? `speciaux/${spécial}` : `${caractère}`}.png" alt = "${alt}" class = "${classes.join(' ')}">`;
 		}
+		texte.innerHTML = contenu;
 	}
 }
