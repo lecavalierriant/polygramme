@@ -284,7 +284,7 @@ function heraldix() {
 			libreRondHautDroite = rondHautDroite.includes(caractère);
 			libreRondBasDroite = rondBasDroite.includes(caractère);
 			spécial = spéciaux[caractère];
-			chemin = "C:/Users/Artus de Chavagnac/polygramme/heraldix/";
+			chemin = "https://lecavalierriant.github.io/polygramme/heraldix/";
 			alt = caractère;
 			if (spécial) {
 				if (spécial.startsWith("0x")) {alt = `&${spécial.replace("0x", "#x")};`;}
