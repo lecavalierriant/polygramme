@@ -83,7 +83,8 @@ function copier() {
 function lister() {
 	Write-Host "Liste en cours..."
 	$lignes = @()
-	$lignes += '<html lang = "fr">
+	$lignes += '<!doctype html>
+<html lang = "fr">
 <head>
 	<link rel = "stylesheet" href = "../lecavalierriant/lecavalierriant.css">
 	<link rel = "stylesheet" href = "heraldix.css">
@@ -92,6 +93,9 @@ function lister() {
 	<title>Héraldix</title>
 </head>
 <body>
+
+<a href = "polygramme.html"><h1 class = "heraldix">Polygramme</h1></a>
+<h1 class = "heraldix">Héraldix</h1>
 
 <p class = "heraldix">'
 	$fichiers = Get-ChildItem -Path $PSScriptRoot -File -Recurse -Include *.png
