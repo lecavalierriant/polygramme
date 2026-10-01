@@ -1,0 +1,28 @@
+h1.karolvs {
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 100px;
+}
+
+h2.karolvs {
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+p.karolvs {
+	font-size: 35px;
+	line-height: 35px;
+}
+
+.karolvs {font-family: karolvs-local;}
+.parchemin {background: url("karolvs.png");}
+.parchemin * {
+	color: #000000;
+	text-shadow: none;
+}
+
+@font-face {
+	font-family: "karolvs-local";
+	src: url("karolvs.ttf");
+}
