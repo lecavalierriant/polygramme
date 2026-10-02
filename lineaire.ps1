@@ -17,7 +17,7 @@
 
 <p class = "lineaire">'
 	$fichiers = Get-ChildItem -Path $PSScriptRoot\lineaire\ -File -Recurse -Include *.svg
-	$lignes += $fichiers | ForEach-Object {"	" + $_.BaseName}
+	$lignes += $fichiers | ForEach-Object {"	" + [char][int]$_.BaseName}
 	$lignes += '</p>
 
 </body>
