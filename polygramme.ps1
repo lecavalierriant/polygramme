@@ -1,58 +1,35 @@
-﻿function karolvs() {
+﻿$titres = @{
+	"karolvs" = @("Karolvs", "0x4B.svg", " class = 'parchemin'")
+	"lineaire" = @("Linéaire", "0x4C.svg", "")
+}
+
+function lister($police) {
 	Write-Host "Liste en cours..."
 	$lignes = @()
 	$lignes += '<!doctype html>
 <html>
 <head>
 	<link rel = "stylesheet" href = "../lecavalierriant/lecavalierriant.css">
-	<link rel = "stylesheet" href = "karolvs.css">
-	<link rel = "icon" href = "karolvs/0x4B.svg">
-	<script src = "karolvs.js"></script>
-	<title>Karolvs</title>
+	<link rel = "stylesheet" href = "' + $police + '.css">
+	<link rel = "icon" href = "' + $police + '/' + $titres[$police][1] + '">
+	<script src = "' + $police + '.js"></script>
+	<title>' + $titres[$police][0] + '</title>
 </head>
-<body class = "parchemin">
+<body' + $titres[$police][2] + '>
 
-<a href = "polygramme.html"><h1 class = "karolvs">Polygramme</h1></a>
-<h1 class = "karolvs">Karolvs</h1>
+<a href = "polygramme.html"><h1 class = "' + $police + '">Polygramme</h1></a>
+<h1 class = "' + $police + '">' + $titres[$police][0] + '</h1>
 
-<p class = "karolvs">'
-	$fichiers = Get-ChildItem -Path $PSScriptRoot\karolvs\ -File -Recurse -Include *.svg
+<p class = "' + $police + '">'
+	$fichiers = Get-ChildItem -Path $PSScriptRoot\$police\ -File -Recurse -Include *.svg
 	$lignes += $fichiers | ForEach-Object {"	" + [char][int]$_.BaseName}
 	$lignes += '</p>
 
 </body>
 </html>'
-	$lignes | Out-File -FilePath "$PSScriptRoot\karolvs.html" -Encoding utf8
+	$lignes | Out-File -FilePath "$PSScriptRoot\$police.html" -Encoding utf8
 	Write-Host "Liste terminée !"
 }
 
-function lineaire() {
-	Write-Host "Liste en cours..."
-	$lignes = @()
-	$lignes += '<!doctype html>
-<html>
-<head>
-	<link rel = "stylesheet" href = "../lecavalierriant/lecavalierriant.css">
-	<link rel = "stylesheet" href = "lineaire.css">
-	<link rel = "icon" href = "lineaire/A.svg">
-	<script src = "lineaire.js"></script>
-	<title>Linéaire</title>
-</head>
-<body>
-
-<a href = "polygramme.html"><h1 class = "lineaire">Polygramme</h1></a>
-<h1 class = "lineaire">Linéaire</h1>
-
-<p class = "lineaire">'
-	$fichiers = Get-ChildItem -Path $PSScriptRoot\lineaire\ -File -Recurse -Include *.svg
-	$lignes += $fichiers | ForEach-Object {"	" + [char][int]$_.BaseName}
-	$lignes += '</p>
-
-</body>
-</html>'
-	$lignes | Out-File -FilePath "$PSScriptRoot\lineaire.html" -Encoding utf8
-	Write-Host "Liste terminée !"
-}
-
-karolvs
-lineaire
+lister("karolvs")
+lister("lineaire")
