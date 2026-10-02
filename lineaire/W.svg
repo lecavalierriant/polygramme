@@ -9,11 +9,11 @@
 </g>
 
 <g>
-	<polygon points = "0,50 150,50"/>
-	<polygon points = "200,50 350,50"/>
-	<polygon points = "400,50 500,50"/>
-	<polygon points = "100,250 200,250"/>
-	<polygon points = "300,250 400,250"/>
+	<polygon points = "10,50 140,50"/>
+	<polygon points = "210,50 340,50"/>
+	<polygon points = "110,250 190,250"/>
+	<polygon points = "410,50 490,50"/>
+	<polygon points = "310,250 390,250"/>
 </g>
 
 </svg>
