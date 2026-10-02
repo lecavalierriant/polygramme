@@ -1,13 +1,13 @@
-<svg xmlns = "http://www.w3.org/2000/svg" width = "300" height = "300">
+<svg xmlns = "http://www.w3.org/2000/svg" width = "150" height = "300">
 <style>* {fill: lightblue; stroke: black; stroke-width: 6px;} .vide {fill: none;}</style>
 
 <g>
-	<polygon points = "125,50 175,50 175,250 125,250"/>
+	<polygon points = "50,50 100,50 100,250 50,250"/>
 </g>
 
 <g>
-	<polygon points = "75,250 225,250"/>
-	<polygon points = "75,50 225,50"/>
+	<polygon points = "10,250 140,250"/>
+	<polygon points = "10,50 140,50"/>
 </g>
 
 </svg>
