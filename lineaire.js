@@ -15,7 +15,7 @@ function lineaire() {
 			}
 			classes = ["caractère"];
 			chemin = "https://lecavalierriant.github.io/polygramme/lineaire/";
-			contenu += `<img src = "${chemin}${caractère}.svg" alt = "${caractère}" class = "${classes.join(' ')}">`;
+			contenu += `<img src = "${chemin}${"0x" + caractère.codePointAt().toString(16).toUpperCase()}.svg" alt = "${caractère}" class = "${classes.join(' ')}">`;
 		}
 		texte.innerHTML = contenu;
 	}
