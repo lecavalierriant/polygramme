@@ -8,12 +8,12 @@
 	<link rel = "stylesheet" href = "lineaire.css">
 	<link rel = "icon" href = "lineaire/A.svg">
 	<script src = "lineaire.js"></script>
-	<title>lineaire</title>
+	<title>Linéaire</title>
 </head>
 <body>
 
 <a href = "polygramme.html"><h1 class = "lineaire">Polygramme</h1></a>
-<h1 class = "lineaire">lineaire</h1>
+<h1 class = "lineaire">Linéaire</h1>
 
 <p class = "lineaire">'
 	$fichiers = Get-ChildItem -Path $PSScriptRoot\lineaire\ -File -Recurse -Include *.svg
