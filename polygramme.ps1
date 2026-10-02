@@ -1,4 +1,5 @@
 ﻿$titres = @{
+	"heraldix" = @("Héraldix", "H.png", "")
 	"karolvs" = @("Karolvs", "0x4B.svg", ' class = "parchemin"')
 	"lineaire" = @("Linéaire", "0x4C.svg", "")
 }
@@ -31,5 +32,6 @@ function lister($police) {
 	Write-Host "Liste terminée !"
 }
 
+lister("heraldix")
 lister("karolvs")
 lister("lineaire")
