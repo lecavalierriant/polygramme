@@ -11,8 +11,8 @@
 </g>
 
 <g>
-	<polygon points = "0,50 50,50"/>
-	<polygon points = "0,250 50,250"/>
+	<polygon points = "10,50 50,50"/>
+	<polygon points = "10,250 50,250"/>
 </g>
 
 </svg>
