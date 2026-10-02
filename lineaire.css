@@ -2,6 +2,6 @@
 	pointer-events: none;
 	filter: invert(1);
 }
-h1.lineaire .caractère {width: 70px;}
-h2.lineaire .caractère {width: 50px;}
-p.lineaire .caractère {width: 20px}
+h1.lineaire .caractère {height: 70px;}
+h2.lineaire .caractère {height: 50px;}
+p.lineaire .caractère {height: 20px}
