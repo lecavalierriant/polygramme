@@ -84,7 +84,7 @@ function lister() {
 	Write-Host "Liste en cours..."
 	$lignes = @()
 	$lignes += '<!doctype html>
-<html lang = "fr">
+<html>
 <head>
 	<link rel = "stylesheet" href = "../lecavalierriant/lecavalierriant.css">
 	<link rel = "stylesheet" href = "heraldix.css">
