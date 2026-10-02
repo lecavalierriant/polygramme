@@ -7,9 +7,9 @@
 </g>
 
 <g>
-	<polygon points = "0,50 150,50"/>
-	<polygon points = "0,250 50,250"/>
-	<polygon points = "250,250 250,200"/>
+	<polygon points = "10,50 140,50"/>
+	<polygon points = "10,250 50,250"/>
+	<polygon points = "250,250 250,210"/>
 </g>
 
 </svg>
