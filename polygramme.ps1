@@ -1,5 +1,5 @@
 ﻿$titres = @{
-	"karolvs" = @("Karolvs", "0x4B.svg", " class = 'parchemin'")
+	"karolvs" = @("Karolvs", "0x4B.svg", ' class = "parchemin"')
 	"lineaire" = @("Linéaire", "0x4C.svg", "")
 }
 
