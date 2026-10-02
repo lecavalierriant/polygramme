@@ -83,7 +83,8 @@ function copier() {
 function lister() {
 	Write-Host "Liste en cours..."
 	$lignes = @()
-	$lignes += '<html lang = "fr">
+	$lignes += '<!doctype html>
+<html>
 <head>
 	<link rel = "stylesheet" href = "../lecavalierriant/lecavalierriant.css">
 	<link rel = "stylesheet" href = "polygramme.css">
