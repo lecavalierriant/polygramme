@@ -6,11 +6,12 @@
 
 $correspondances = @(
 
+	# ..
 	@{original = "0x27"; copies = @("0xB4")},
 	@{original = "0x2DC"; copies = @("0x1FC0")},
 	@{original = "0x2DA"; copies = @("0xB0")},
 	
-	# lt copies = @("")
+	# lt
 	@{original = "A"; copies = @("0x391", "0x410")},
 		@{original = "Á"; copies = @("0x1fbb", "0x386")},
 		@{original = "À"; copies = @("0x1fba")},
@@ -27,7 +28,7 @@ $correspondances = @(
 		@{original = "Ë"; copies = @("0x401")},
 		@{original = "Ĕ"; copies = @("0x4d6")},
 	@{original = "F"; copies = @("0x3dc")},
-	@{original = "H"; copies = @("0x397", "0x41d")},
+	@{original = "0x48"; copies = @("0x397", "0x41d")},
 	@{original = "I"; copies = @("0x399", "0x406", "0x31")},
 		@{original = "Í"; copies = @("0x38a")},
 		@{original = "Ï"; copies = @("0x3aa", "0x407")},
@@ -48,7 +49,7 @@ $correspondances = @(
 		@{original = "Ȳ"; copies = @("0x4ee")},
 	@{original = "Z"; copies = @("0x396")},
 
-	# gr copies = @("")
+	# gr
 	@{original = "Γ"; copies = @("0x413")},
 	@{original = "Δ"; copies = @("0x414")},
 	@{original = "Θ"; copies = @("0x472")},
@@ -56,12 +57,33 @@ $correspondances = @(
 	@{original = "Π"; copies = @("0x41f")},
 	@{original = "Φ"; copies = @("0x424")},
 
-	# ru copies = @("")
+	# ru
 	@{original = "З"; copies = @("0x33")},
 	@{original = "Ч"; copies = @("0x34")}
 
-	# 00 copies = @("")
+	# 00
 )
+
+function copier($police) {
+	$données = [System.Collections.Generic.List[PSCustomObject]]::new()
+	foreach ($caractère in $correspondances) {
+		$données.Add(
+			[PSCustomObject]@{
+				"Original" = $caractère.original
+				"Copies" = $caractère.copies -join " "
+			}
+		)
+		$source = $PSScriptRoot + "\" + $police + "\" + $caractère.original + ".png"
+		if (Test-Path -Path $source) {
+			foreach ($copie in $caractère.copies) {
+				$copie = $PSScriptRoot + "\" + $police + "\" + $copie + ".png"
+				try {Copy-Item -Path $source -Destination $copie -Force}
+				catch {Write-Error "$copie. Erreur : $_"}
+			}
+		}
+	}
+	$données | Export-Csv -Path "$PSScriptRoot\polygramme.csv" -NoTypeInformation -Encoding UTF8
+}
 
 function lister($police) {
 	$lignes = @()
@@ -92,5 +114,6 @@ function lister($police) {
 }
 
 lister("heraldix")
+copier("heraldix")
 lister("karolvs")
 lister("lineaire")
