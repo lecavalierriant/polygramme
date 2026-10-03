@@ -5,12 +5,10 @@
 }
 
 $correspondances = @(
-
 	# ..
 	@{original = "0x27"; copies = @("0xB4")},
 	@{original = "0x2DC"; copies = @("0x1FC0")},
 	@{original = "0x2DA"; copies = @("0xB0")},
-	
 	# lt
 	@{original = "0x41"; copies = @("0x391", "0x410")},
 		@{original = "0xC1"; copies = @("0x1FBB", "0x386")},
@@ -48,7 +46,6 @@ $correspondances = @(
 		@{original = "0x178"; copies = @("0x3AB", "0x4F0")},
 		@{original = "0x232"; copies = @("0x4EE")},
 	@{original = "0x5A"; copies = @("0x396")},
-
 	# gr
 	@{original = "0x393"; copies = @("0x413")},
 	@{original = "0x394"; copies = @("0x414")},
@@ -56,11 +53,9 @@ $correspondances = @(
 	@{original = "0x39B"; copies = @("0x41B")},
 	@{original = "0x3A0"; copies = @("0x41F")},
 	@{original = "0x3A6"; copies = @("0x424")},
-
 	# ru
 	@{original = "0x417"; copies = @("0x33")},
 	@{original = "0x427"; copies = @("0x34")}
-
 	# 00
 )
 
@@ -73,10 +68,10 @@ function copier($police) {
 				"Copies" = $caractère.copies -join " "
 			}
 		)
-		$source = $PSScriptRoot + "\" + $police + "\" + $caractère.original + ".png"
+		$source = $PSScriptRoot + "\" + $police + "\" + $caractère.original + $polices[$police][2]
 		if (Test-Path -Path $source) {
 			foreach ($copie in $caractère.copies) {
-				$copie = $PSScriptRoot + "\" + $police + "\" + $copie + ".png"
+				$copie = $PSScriptRoot + "\" + $police + "\" + $copie + $polices[$police][2]
 				try {Copy-Item -Path $source -Destination $copie -Force}
 				catch {Write-Error "$copie. Erreur : $_"}
 			}
@@ -117,3 +112,4 @@ lister("heraldix")
 copier("heraldix")
 lister("karolvs")
 lister("lineaire")
+copier("lineaire")
