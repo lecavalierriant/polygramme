@@ -1,5 +1,5 @@
 ﻿$polices = @{
-	"heraldix" = @("Héraldix", "H", ".png", "")
+	"heraldix" = @("Héraldix", "0x48", ".png", "")
 	"karolvs" = @("Karolvs", "0x4B", ".svg", ' class = "parchemin"')
 	"lineaire" = @("Linéaire", "0x4C", ".svg", "")
 }
