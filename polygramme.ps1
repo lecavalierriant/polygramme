@@ -5,7 +5,6 @@
 }
 
 function lister($police) {
-	Write-Host "Liste en cours..."
 	$lignes = @()
 	$lignes += '<!doctype html>
 <html>
@@ -29,7 +28,6 @@ function lister($police) {
 </body>
 </html>'
 	$lignes | Out-File -FilePath "$PSScriptRoot\$police.html" -Encoding utf8
-	Write-Host "Liste terminée !"
 }
 
 lister("heraldix")
