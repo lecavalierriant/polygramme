@@ -9,6 +9,7 @@ function lister($police) {
 	$lignes += '<!doctype html>
 <html>
 <head>
+	<meta charset = "utf-8">
 	<link rel = "stylesheet" href = "../lecavalierriant/lecavalierriant.css">
 	<link rel = "stylesheet" href = "' + $police + '.css">
 	<link rel = "icon" href = "' + $police + '/' + $polices[$police][1] + $polices[$police][2] + '">
@@ -16,8 +17,9 @@ function lister($police) {
 	<title>' + $polices[$police][0] + '</title>
 </head>
 <body' + $polices[$police][3] + '>
+<header><a href = "polygramme.html"><h1 class = "' + $police + '">Menu</h1></a></header>
+<iframe src = "polygramme.html"></iframe>
 
-<a href = "polygramme.html"><h1 class = "' + $police + '">Polygramme</h1></a>
 <h1 class = "' + $police + '">' + $polices[$police][0] + '</h1>
 
 <p class = "' + $police + '">'
