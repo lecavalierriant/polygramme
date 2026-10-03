@@ -87,43 +87,6 @@ bas = [
 	"Щ",
 ];
 
-spéciaux = {
-	"῀": "0x1FC0",
-	"ˍ": "0x2CD",
-	"-": "0x2D",
-	"~": "0x7E",
-	"ꞈ": "0xA788",
-	"&": "amp",
-	"'": "apos",
-	"˘": "breve",
-	"¸": "cedil",
-	"·": "centerdot",
-	":": "colon",
-	",": "comma",
-	"°": "deg",
-	"´": "DiacriticalAcute",
-	"˙": "DiacriticalDot",
-	"˝": "DiacriticalDoubleAcute",
-	"`": "DiacriticalGrave",
-	"˜": "DiacriticalTilde",
-	"=": "equals",
-	"!": "excl",
-	"ˇ": "Hacek",
-	"^": "Hat",
-	"(": "lpar",
-	"—": "mdash",
-	"…": "mldr",
-	"%": "percnt",
-	".": "period",
-	"?": "quest",
-	"˚": "ring",
-	")": "rpar",
-	";": "semi",
-	"/": "sol",
-	"¯": "strns",
-	"¨": "uml",
-}
-
 basDroite = [
 	"7",
 	// lt
@@ -283,14 +246,8 @@ function heraldix() {
 			libreBasDroite = basDroite.includes(caractère);
 			libreRondHautDroite = rondHautDroite.includes(caractère);
 			libreRondBasDroite = rondBasDroite.includes(caractère);
-			spécial = spéciaux[caractère];
 			chemin = "https://lecavalierriant.github.io/polygramme/heraldix/";
-			alt = caractère;
-			if (spécial) {
-				if (spécial.startsWith("0x")) {alt = `&${spécial.replace("0x", "#x")};`;}
-				else {alt = `&${spécial};`;}
-			}
-			contenu += `<img src = "${chemin}${spécial ? `speciaux/${spécial}` : `${caractère}`}.png" alt = "${alt}" class = "${classes.join(' ')}">`;
+			contenu += `<img src = "${chemin}${"0x" + caractère.codePointAt().toString(16).toUpperCase()}.png" alt = "${caractère}" class = "${classes.join(' ')}">`;
 		}
 		texte.innerHTML = contenu;
 	}
