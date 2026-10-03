@@ -1,17 +1,17 @@
-<svg xmlns = "http://www.w3.org/2000/svg" width = "300" height = "300">
+<svg xmlns = "http://www.w3.org/2000/svg" width = "240" height = "300">
 <style>* {fill: lightblue; stroke: black; stroke-width: 6px;} .vide {fill: none;}</style>
 
 <g>
-	<polygon points = "100,50 250,50"/>
-	<polygon points = "100,150 200,150"/>
-	<polygon points = "50,250 200,250"/>
-	<path d = "M 100 50 A 1 1 0 0 0 100 150 Z"/>
-	<path d = "M 200 150 A 1 1 0 0 1 200 250 Z"/>
+	<polygon points = "70,50 220,50"/>
+	<polygon points = "70,150 170,150"/>
+	<polygon points = "20,250 170,250"/>
+	<path d = "M 70,50 A 1 1 0 0 0 70,150 Z"/>
+	<path d = "M 170,150 A 1 1 0 0 1 170,250 Z"/>
 </g>
 
 <g>
-	<polygon points = "250,50 250,90"/>
-	<polygon points = "50,210 50,250"/>
+	<polygon points = "220,50 220,90"/>
+	<polygon points = "20,210 20,250"/>
 </g>
 
 </svg>
