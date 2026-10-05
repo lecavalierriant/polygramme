@@ -1,9 +1,11 @@
+.parchemin h1,
 h1.karolvs {
 	font-weight: normal;
 	font-size: 100px;
 	line-height: 100px;
 }
 
+.parchemin h1,
 h2.karolvs {
 	font-weight: normal;
 	font-size: 60px;
@@ -20,6 +22,7 @@ p.karolvs {
 .parchemin * {
 	color: #000000;
 	text-shadow: none;
+	font-family: karolvs-local;
 }
 
 @font-face {
