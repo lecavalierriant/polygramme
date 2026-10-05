@@ -1,6 +1,7 @@
 .lineaire .caractère {
 	pointer-events: none;
 	filter: invert(1);
+	border-radius: 0;
 }
 h1.lineaire .caractère {height: 70px;}
 h2.lineaire .caractère {height: 50px;}
