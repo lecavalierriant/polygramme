@@ -59,6 +59,12 @@ $correspondances = @(
 	# 00
 )
 
+$correspondancesKarolvs = @(
+	@{original = "0x17F"; copies = @("0x73")},
+	@{original = "0x131"; copies = @("0x69", "0x6A")}
+	@{original = "0x76"; copies = @("0x75")}
+)
+
 function copier($police) {
 	$données = [System.Collections.Generic.List[PSCustomObject]]::new()
 	foreach ($caractère in $correspondances) {
@@ -100,7 +106,20 @@ function lister($police) {
 
 <p class = "' + $police + '">'
 	$fichiers = Get-ChildItem -Path $PSScriptRoot\$police\ -File -Recurse -Include "*$($polices[$police][2])"
-	$lignes += $fichiers | ForEach-Object {"	" + [char][int]$_.BaseName}
+	if ($police -eq "karolvs") {
+		$lignes += $fichiers | ForEach-Object {
+			$chaine = "	" + [char][int]$_.BaseName
+			foreach ($caractère in $correspondancesKarolvs) {
+				if ($caractère.original -eq $_.BaseName) {
+					foreach ($copie in $caractère.copies) {
+						$chaine += "	" + [char][int]$copie
+					}
+					break 
+				}
+			}
+			$chaine
+		}
+	} else {$lignes += $fichiers | ForEach-Object {"	" + [char][int]$_.BaseName}}
 	$lignes += '</p>
 
 </body>
