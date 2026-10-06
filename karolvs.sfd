@@ -46,6 +46,7 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -735,6 +736,7 @@ SplineSet
  144.192382812 291.821289062 141.463867188 322.779296875 123.720703125 350.999023438 c 1
  113.891601562 379.935546875 110.63671875 415.065429688 74.8818359375 433.936523438 c 1
 EndSplineSet
+Validated: 524321
 EndChar
 
 StartChar: S
@@ -1612,7 +1614,7 @@ EndChar
 StartChar: O
 Encoding: 79 79 43
 Width: 264
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1653,6 +1655,7 @@ SplineSet
 62.462890625 -4.8291015625 m 1
  53.35546875 -10.6103515625 57.0087890625 8.5205078125 62.462890625 -4.8291015625 c 1
 EndSplineSet
+Validated: 524325
 EndChar
 EndChars
 EndSplineFont
