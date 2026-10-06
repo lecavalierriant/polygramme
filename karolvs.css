@@ -18,7 +18,11 @@ p.karolvs {
 }
 
 .karolvs {font-family: karolvs-local;}
-.parchemin {background: url("karolvs.png");}
+.parchemin {
+	background-image: url("karolvs.png");
+	background-size: auto 100%;
+	background-position: top center;
+}
 .parchemin * {
 	color: #000000;
 	text-shadow: none;
@@ -28,4 +32,10 @@ p.karolvs {
 @font-face {
 	font-family: "karolvs-local";
 	src: url("karolvs.ttf");
+}
+
+@media (min-width: 1000px) {
+
+.parchemin {background-size: 100% auto;}
+
 }
