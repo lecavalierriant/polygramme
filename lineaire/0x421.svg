@@ -2,7 +2,13 @@
 <style>* {fill: lightblue; stroke: black; stroke-width: 6px;} .vide {fill: none;}</style>
 
 <g>
-	<path d = "M 70,50 A 50 50 0 0 0 20,100 L 20,200 A 50 50 0 0 0 70,250 L 70,50"/>
+	<path
+		d = "
+			M 70,50
+			A 50,50 0 0 0 20,100 L 20,200
+			A 50,50 0 0 0 70,250 L 70,50
+		"
+	/>
 	<polygon points = "70,50 220,50"/>
 	<polygon points = "70,250 220,250"/>
 </g>
