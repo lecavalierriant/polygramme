@@ -217,7 +217,7 @@ rondHautGauche = [
 	"Є",
 ];
 
-window.addEventListener("load", () => {heraldix();});
+window.addEventListener("load", heraldix);
 
 function heraldix() {
 	for (texte of document.querySelectorAll(".heraldix")) {
