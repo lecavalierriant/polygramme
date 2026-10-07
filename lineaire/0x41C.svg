@@ -1,5 +1,5 @@
 <svg xmlns = "http://www.w3.org/2000/svg" width = "450" height = "270">
-<style>* {fill: lightblue; stroke: black; stroke-width: 6px;} .vide {fill: none;}</style>
+<style>* {fill: #ade; stroke: #000; stroke-width: 6px;} .vide {fill: none;}</style>
 
 <g>
 	<polygon points = "50,250 150,50"/>
