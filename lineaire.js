@@ -1,4 +1,4 @@
-window.addEventListener("load", () => {lineaire();});
+window.addEventListener("load", lineaire);
 
 function lineaire() {
 	for (texte of document.querySelectorAll(".lineaire")) {
