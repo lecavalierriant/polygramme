@@ -1,4 +1,4 @@
-.heraldix .caractère {
+.heraldix img {
 	border-radius: 0;
 	margin-top: 7.5px;
 	height: 25px;
@@ -11,29 +11,32 @@
 	margin-bottom: -6.46px;
 	height: 31.5px;
 }
-.heraldix h1 .caractère {
+
+h1.heraldix img {
 	margin-top: 15px;
 	height: 50px;
 }
-.heraldix h1 .haut {
+h1.heraldix .haut {
 	margin-top: 0;
 	height: 63px;
 }
-.heraldix h1 .bas {
+h1.heraldix .bas {
 	margin-bottom: -12.5px;
 	height: 63px;
 }
-.heraldix h2 .caractère {
+
+h2.heraldix img {
 	margin: 9px 0 -1px 0;
 	height: 30px;
 }
-.heraldix h2 .haut {
+h2.heraldix .haut {
 	height: 37.8px;
 }
-.heraldix h2 .bas {
+h2.heraldix .bas {
 	margin-bottom: -7.5px;
 	height: 37.8px;
 }
+
 .heraldix .décalage {margin-left: -10px;}
 .heraldix .petit-décalage {margin-left: -5px;}
 
