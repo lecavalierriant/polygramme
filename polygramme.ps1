@@ -111,9 +111,7 @@ function lister($police) {
 			$chaine = "	" + [char][int]$_.BaseName
 			foreach ($caractère in $correspondancesKarolvs) {
 				if ($caractère.original -eq $_.BaseName) {
-					foreach ($copie in $caractère.copies) {
-						$chaine += "	" + [char][int]$copie
-					}
+					foreach ($copie in $caractère.copies) {$chaine += "	" + [char][int]$copie}
 					break 
 				}
 			}
