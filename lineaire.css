@@ -1,8 +1,10 @@
-.lineaire .caractère {
+.lineaire img {
 	pointer-events: none;
 	filter: invert(1);
 	border-radius: 0;
 }
-h1.lineaire .caractère {height: 70px;}
-h2.lineaire .caractère {height: 50px;}
-p.lineaire .caractère {height: 20px}
+.lineaire.italic {transform: skew(-25deg);}
+h1.lineaire img {height: 70px;}
+h2.lineaire img {height: 50px;}
+p.lineaire img {height: 20px}
+.lineaire .espace {margin: 0 5px 0 5px;}
