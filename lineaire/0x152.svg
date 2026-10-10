@@ -1,0 +1,26 @@
+<svg xmlns = "http://www.w3.org/2000/svg" width = "390" height = "270">
+<style>* {fill: #ade; stroke: #000; stroke-width: 6px; stroke-linejoin: round;} .vide {fill: none;}</style>
+
+<g>
+	<path
+		d = "
+			M 70,50
+			A 50,50 0 0 0 20,100 L 20,200
+			A 50,50 0 0 0 70,250 L 70,50
+		"
+	/>
+	<polygon points = "70,50 170,50"/>
+	<polygon points = "70,250 170,250"/>
+	<polygon points = "170,50 220,50 220,250 170,250"/>
+	<polygon points = "220,50 370,50"/>
+	<polygon points = "220,150 270,150"/>
+	<polygon points = "220,250 370,250"/>
+</g>
+
+<g>
+	<polygon points = "370,50 370,90"/>
+	<polygon points = "370,250 370,210"/>
+	<polygon points = "270,110 270,190"/>
+</g>
+
+</svg>
