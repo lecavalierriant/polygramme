@@ -1,10 +1,17 @@
-.deutsche-uncialis {font-family: "deutsche-uncialis";}
+.deutsche-uncialis {font-family: "deutsche uncialis";}
 .deutsche-uncialis *:first-letter, *.deutsche-uncialis:first-letter {color: indianred;}
 .deutsche-uncialis h1:first-letter, h1.deutsche-uncialis:first-letter {font-size: 60px;}
 .deutsche-uncialis h2:first-letter, h2.deutsche-uncialis:first-letter {font-size: 50px;}
 .deutsche-uncialis p:first-letter, p.deutsche-uncialis:first-letter {font-size: 30px;}
 
 @font-face {
-	font-family: "deutsche-uncialis";
+	font-family: "deutsche uncialis";
 	src: url("externes/deutsche-uncialis.ttf");
+}
+
+.triod-postnaja {font-family: "triod postnaja";}
+
+@font-face {
+	font-family: "triod postnaja";
+	src: url("externes/triod-postnaja.ttf");
 }
