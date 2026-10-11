@@ -17,20 +17,20 @@ p.karolvs {
 	line-height: 35px;
 }
 
-.karolvs {font-family: karolvs-local;}
+.karolvs {font-family: karolvs;}
 .parchemin {
-	background-image: url("karolvs.png");
+	background-image: url("karolvs.jpeg");
 	background-size: auto 100%;
 	background-position: top center;
 }
 .parchemin * {
 	color: #000;
 	text-shadow: none;
-	font-family: karolvs-local;
+	font-family: karolvs;
 }
 
 @font-face {
-	font-family: "karolvs-local";
+	font-family: "karolvs";
 	src: url("karolvs.ttf");
 }
 
