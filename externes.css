@@ -1,16 +1,16 @@
-.deutsche-uncialis {font-family: "deutsche uncialis";}
-.deutsche-uncialis *:first-letter, *.deutsche-uncialis:first-letter {color: indianred;}
+.deutsche-uncialis *, .deutsche-uncialis {font-family: "deutsche uncialis";}
+.deutsche-uncialis *:first-letter, .deutsche-uncialis:first-letter {color: indianred;}
 .deutsche-uncialis h1:first-letter, h1.deutsche-uncialis:first-letter {font-size: 60px;}
 .deutsche-uncialis h2:first-letter, h2.deutsche-uncialis:first-letter {font-size: 50px;}
 .deutsche-uncialis p:first-letter, p.deutsche-uncialis:first-letter {font-size: 30px;}
 
 @font-face {
 	font-family: "deutsche uncialis";
-	src: url("externes/deutsche-uncialis.ttf");
+	src: url("C:/Users/Artus de Chavagnac/polygramme/externes/deutsche-uncialis.ttf");
 }
 
-.triod-postnaja {font-family: "triod postnaja";}
-.triod-postnaja *:first-letter, *.triod-postnaja:first-letter {color: indianred;}
+.triod-postnaja *, .triod-postnaja {font-family: "triod postnaja";}
+.triod-postnaja *:first-letter, .triod-postnaja:first-letter {color: indianred;}
 .triod-postnaja h1:first-letter, h1.triod-postnaja:first-letter {font-size: 60px;}
 .triod-postnaja h2:first-letter, h2.triod-postnaja:first-letter {font-size: 50px;}
 .triod-postnaja p:first-letter, p.triod-postnaja:first-letter {font-size: 30px;}
