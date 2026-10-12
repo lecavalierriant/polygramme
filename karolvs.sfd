@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1790011123
-ModificationTime: 1791495582
+ModificationTime: 1791558793
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -45,7 +45,7 @@ OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
-Encoding: UnicodeBmp
+Encoding: ISO8859-1
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -56,7 +56,7 @@ WinInfo: 0 38 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 488211 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 45
+BeginChars: 262 45
 
 StartChar: C
 Encoding: 67 67 0
@@ -594,7 +594,6 @@ SplineSet
  52.5869140625 355.505859375 46.8125 381.462890625 31.6357421875 403.15625 c 1
  20.060546875 422.71484375 -31.4541015625 443.517578125 -2.05859375 467.71875 c 1
 EndSplineSet
-Validated: 33
 EndChar
 
 StartChar: o
@@ -1019,7 +1018,7 @@ Validated: 1
 EndChar
 
 StartChar: .notdef
-Encoding: 361 361 25
+Encoding: 256 361 25
 Width: 130
 Flags: HW
 HStem: 759.82 28.9629<81.3621 143.91>
@@ -1032,7 +1031,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph34
-Encoding: 297 297 26
+Encoding: 257 297 26
 Width: 62
 Flags: HW
 HStem: 4.34277 33.9795<56.7483 85.1177> 759.82 28.9629<91.3621 153.91>
@@ -1045,7 +1044,7 @@ Validated: 1
 EndChar
 
 StartChar: NameMe.258
-Encoding: 7869 7869 27
+Encoding: 258 7869 27
 Width: 116
 Flags: HW
 HStem: 391.164 33.3086<116.384 200.115> 759.82 28.9629<141.362 203.91>
@@ -1102,7 +1101,7 @@ Validated: 33
 EndChar
 
 StartChar: uni1E7D
-Encoding: 7805 7805 29
+Encoding: 259 7805 29
 Width: 130
 Flags: HW
 HStem: 759.82 28.9629<81.3621 143.91>
@@ -1333,7 +1332,7 @@ Validated: 33
 EndChar
 
 StartChar: dotlessi
-Encoding: 305 305 35
+Encoding: 260 305 35
 Width: 62
 Flags: HW
 HStem: 4.34277 33.9795<56.7483 85.1177>
@@ -1367,7 +1366,7 @@ Validated: 33
 EndChar
 
 StartChar: longs
-Encoding: 383 383 36
+Encoding: 261 383 36
 Width: 122
 Flags: W
 VStem: 6.76955 17.7871<50.384 208.765> 11.876 14.9405<1.17359 183.822>
