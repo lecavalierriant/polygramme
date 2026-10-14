@@ -233,12 +233,12 @@ function heraldix() {
 				if (compte > 14) {
 					contenu += "<br>";
 					compte = 0;
-				} else {contenu += "<span class = espace> </span>";}
+				} else {contenu += '<span class = "espace"> </span>';}
 				continue;
 			}
-			classes = ["caractère"];
-			if (hauts.includes(caractère)) classes.push("haut");
-			else if (bas.includes(caractère)) classes.push("bas");
+			classes = [];
+			if (hauts.includes(caractère)) {classes.push("haut");}
+			else if (bas.includes(caractère)) {classes.push("bas");}
 			if ((libreBasDroite && hautGauche.includes(caractère)) || (libreHautDroite && basGauche.includes(caractère))) {classes.push("décalage");}
 			if ((libreBasDroite && rondHautGauche.includes(caractère)) || (libreHautDroite && rondBasGauche.includes(caractère))) {classes.push("petit-décalage");}
 			if ((libreRondBasDroite && hautGauche.includes(caractère)) || (libreRondHautDroite && basGauche.includes(caractère))) {classes.push("petit-décalage");}
