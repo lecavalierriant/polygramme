@@ -1,3 +1,10 @@
+hauts = [
+];
+
+bas = [
+	"Q",
+];
+
 window.addEventListener("load", lineaire);
 
 function correspondances(caractère) { // prends la copie et done l'oginial
@@ -93,8 +100,10 @@ function lineaire() {
 				} else {contenu += "<span class = espace> </span>";}
 				continue;
 			}
-			classes = ["caractère"];
 			chemin = "https://lecavalierriant.github.io/polygramme/lineaire/";
+			classes = [];
+			if (hauts.includes(caractère)) {classes.push("haut");}
+			else if (bas.includes(caractère)) {classes.push("bas");}
 			contenu += `<img src = "${chemin}${correspondances("0x" + caractère.codePointAt().toString(16).toUpperCase())}.svg" alt = "${caractère}" class = "${classes.join(' ')}">`;
 		}
 		texte.innerHTML = contenu;
