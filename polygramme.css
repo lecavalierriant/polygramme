@@ -151,6 +151,15 @@ p.lineaire .bas {
 }
 
 .lineaire .espace {margin: 0 5px 0 5px;}
+
+/* Mando'a */
+
+.mandoa {font-family: "mandoa";}
+
+@font-face {
+	font-family: "mandoa";
+	src: url("mandoa.ttf");
+}
 /* Triod Postnaja */
 
 .triod-postnaja *, .triod-postnaja {font-family: "triod postnaja";}
