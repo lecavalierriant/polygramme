@@ -2,6 +2,7 @@
 	"heraldix" = @("Héraldix", "0x48", ".png", "")
 	"karolvs" = @("Karolvs", "0x4B", ".svg", ' class = "parchemin"')
 	"lineaire" = @("Linéaire", "0x4C", ".svg", "")
+	"standard-galactic-alphabet" = @("Standard Galactic Alphabet", "0x53", ".svg", "")
 }
 
 $correspondances = @(
@@ -61,8 +62,9 @@ $correspondances = @(
 
 $correspondancesKarolvs = @(
 	@{original = "0x17F"; copies = @("0x73")},
-	@{original = "0x131"; copies = @("0x69", "0x6A")}
-	@{original = "0x76"; copies = @("0x75")}
+	@{original = "0x131"; copies = @("0x69", "0x6A")},
+	@{original = "0x76"; copies = @("0x75")},
+	@{original = "0x49"; copies = @("0x4A")}
 )
 
 function copier($police) {
@@ -99,7 +101,7 @@ function lister($police) {
 	<title>' + $polices[$police][0] + '</title>
 </head>
 <body' + $polices[$police][3] + '>
-<header><a href = "polygramme.html"><h1 class = "' + $police + '">Menu</h1></a></header>
+<header><a href = "polygramme.html"><h1 class = "' + $police + '">Polygramme</h1></a></header>
 <iframe src = "polygramme.html"></iframe>
 
 <h1 class = "' + $police + '">' + $polices[$police][0] + '</h1>
@@ -120,8 +122,6 @@ function lister($police) {
 	} else {$lignes += $fichiers | ForEach-Object {"	" + [char][int]$_.BaseName}}
 	$lignes += '</p>
 
-<p class = "' + $police + '">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
 </body>
 </html>'
 	$lignes | Out-File -FilePath "$PSScriptRoot\$police.html" -Encoding utf8
@@ -132,3 +132,4 @@ copier("heraldix")
 lister("karolvs")
 lister("lineaire")
 copier("lineaire")
+lister("standard-galactic-alphabet")
