@@ -1,0 +1,5 @@
+<svg width = "80" height = "80" xmlns = "http://www.w3.org/2000/svg">
+	<path d = "M 40,50 V 60 H 0 V 70 H 50 V 50 Z"/>
+	<path d = "M 30,40 V 50 H 40 V 40 Z"/>
+	<path d = "M 20,0 V 40 H 30 V 0 Z"/>
+</svg>
