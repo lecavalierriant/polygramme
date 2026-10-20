@@ -19,6 +19,52 @@
 	font-family: "deutsche uncialis";
 	src: url("externes/deutsche-uncialis.ttf");
 }
+
+/* Héraldix  */
+
+.heraldix img {
+	border-radius: 0;
+	margin-top: 7.5px;
+	height: 25px;
+}
+.heraldix .haut {
+	margin-top: 0;
+	height: 31.5px;
+}
+.heraldix .bas {
+	margin-bottom: -6.46px;
+	height: 31.5px;
+}
+
+h1.heraldix img {
+	margin-top: 15px;
+	height: 50px;
+}
+h1.heraldix .haut {
+	margin-top: 0;
+	height: 63px;
+}
+h1.heraldix .bas {
+	margin-bottom: -12.5px;
+	height: 63px;
+}
+
+h2.heraldix img {
+	margin: 9px 0 -1px 0;
+	height: 30px;
+}
+h2.heraldix .haut {
+	height: 37.8px;
+}
+h2.heraldix .bas {
+	margin-bottom: -7.5px;
+	height: 37.8px;
+}
+
+.heraldix .décalage {margin-left: -10px;}
+.heraldix .petit-décalage {margin-left: -5px;}
+
+.heraldix .espace {margin: 0 15px 0 15px;}
 /* Triod Postnaja */
 
 .triod-postnaja *, .triod-postnaja {font-family: "triod postnaja";}
