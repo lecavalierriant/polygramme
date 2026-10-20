@@ -160,6 +160,16 @@ p.lineaire .bas {
 	font-family: "mandoa";
 	src: url("mandoa.ttf");
 }
+
+/* Standard Galactic Alphabet */
+
+.standard-galactic-alphabet {font-family: "standard-galactic-alphabet";}
+
+@font-face {
+	font-family: "standard-galactic-alphabet";
+	src: url("standard-galactic-alphabet.ttf");
+}
+
 /* Triod Postnaja */
 
 .triod-postnaja *, .triod-postnaja {font-family: "triod postnaja";}
