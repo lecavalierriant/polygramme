@@ -6,6 +6,7 @@ Weight: Regular
 Copyright: Copyright (c) 2026, Le Cavalier Riant
 UComments: "2026-9-21: Created with FontForge (http://fontforge.org)"
 Version: 001.000
+DefaultBaseFilename: karolvs
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -22,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1790011123
-ModificationTime: 1791558793
+ModificationTime: 1792502609
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
