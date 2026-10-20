@@ -6,3 +6,11 @@
 	font-family: "aurebesh";
 	src: url("aurebesh.ttf");
 }
+
+/* Deutsche Uncialis */
+
+.deutsche-uncialis *, .deutsche-uncialis {font-family: "deutsche uncialis";}
+.deutsche-uncialis *:first-letter, .deutsche-uncialis:first-letter {color: indianred;}
+.deutsche-uncialis h1:first-letter, h1.deutsche-uncialis:first-letter {font-size: 60px;}
+.deutsche-uncialis h2:first-letter, h2.deutsche-uncialis:first-letter {font-size: 50px;}
+.deutsche-uncialis p:first-letter, p.deutsche-uncialis:first-letter {font-size: 30px;}
