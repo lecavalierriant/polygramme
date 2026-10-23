@@ -97,7 +97,7 @@ function lineaire() {
 				if (compte > 14) {
 					contenu += "<br>";
 					compte = 0;
-				} else {contenu += "<span class = espace> </span>";}
+				} else {contenu += '<span class = "espace"> </span>';}
 				continue;
 			}
 			chemin = "https://lecavalierriant.github.io/polygramme/lineaire/";
