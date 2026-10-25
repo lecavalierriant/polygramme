@@ -7,7 +7,7 @@ bas = [
 
 window.addEventListener("load", lineaire);
 
-function correspondances(caractère) { // prends la copie et done l'oginial
+function correspondances(caractère) {
 	switch (caractère) {
 	// ..
 		case "0xB4": return "0x27";
