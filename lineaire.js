@@ -104,7 +104,7 @@ function lineaire() {
 			classes = [];
 			if (hauts.includes(caractère)) {classes.push("haut");}
 			else if (bas.includes(caractère)) {classes.push("bas");}
-			contenu += `<img src = "${chemin}${correspondances("0x" + caractère.codePointAt().toString(16).toUpperCase())}.svg" alt = "${caractère}" class = "${classes.join(' ')}">`;
+			contenu += `<img src = "${chemin}${original("0x" + caractère.codePointAt().toString(16).toUpperCase())}.svg" alt = "${caractère}" class = "${classes.join(' ')}">`;
 		}
 		texte.innerHTML = contenu;
 	}
