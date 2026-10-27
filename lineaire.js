@@ -7,8 +7,8 @@ bas = [
 
 window.addEventListener("load", lineaire);
 
-function correspondances(caractère) {
-	switch (caractère) {
+function original(copie) {
+	switch (copie) {
 	// ..
 		case "0xB4": return "0x27";
 		case "0x1FC0": return "0x2DC";
@@ -83,7 +83,7 @@ function correspondances(caractère) {
 		case "0x33": return "0x417";
 		case "0x34": return "0x427";
 	// 00
-		default: return caractère;
+		default: return copie;
 	}
 }
 
