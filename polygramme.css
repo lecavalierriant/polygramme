@@ -4,7 +4,7 @@
 
 @font-face {
 	font-family: "aurebesh";
-	src: url("aurebesh.ttf");
+	src: url("star-wars/aurebesh.ttf");
 }
 
 /* Deutsche Uncialis */
@@ -158,7 +158,7 @@ p.lineaire .bas {
 
 @font-face {
 	font-family: "mandoa";
-	src: url("mandoa.ttf");
+	src: url("star-wars/mandoa.ttf");
 }
 
 /* Standard Galactic Alphabet */
@@ -167,7 +167,7 @@ p.lineaire .bas {
 
 @font-face {
 	font-family: "standard-galactic-alphabet";
-	src: url("standard-galactic-alphabet.ttf");
+	src: url("minecraft/standard-galactic-alphabet.ttf");
 }
 
 /* Triod Postnaja */
