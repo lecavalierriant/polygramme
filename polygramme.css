@@ -85,34 +85,3 @@ p.lineaire .bas {
 }
 
 .lineaire .espace {margin: 0 5px 0 5px;}
-
-/* Mando'a */
-
-.mandoa {font-family: "mandoa";}
-
-@font-face {
-	font-family: "mandoa";
-	src: url("star-wars/mandoa.ttf");
-}
-
-/* Standard Galactic Alphabet */
-
-.standard-galactic-alphabet {font-family: "standard-galactic-alphabet";}
-
-@font-face {
-	font-family: "standard-galactic-alphabet";
-	src: url("minecraft/standard-galactic-alphabet.ttf");
-}
-
-/* Triod Postnaja */
-
-.triod-postnaja *, .triod-postnaja {font-family: "triod postnaja";}
-.triod-postnaja *:first-letter, .triod-postnaja:first-letter {
-	color: indianred;
-	font-size: 2em;
-}
-
-@font-face {
-	font-family: "triod postnaja";
-	src: url("externes/triod-postnaja.ttf");
-}
