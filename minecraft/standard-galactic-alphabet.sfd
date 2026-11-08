@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1791652180
-ModificationTime: 1792501986
+ModificationTime: 1794070056
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -37,9 +37,11 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-Encoding: ISO8859-1
+Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -48,608 +50,555 @@ FitToEm: 0
 WinInfo: 0 38 12
 BeginPrivate: 0
 EndPrivate
-BeginChars: 256 52
+BeginChars: 1114112 52
 
 StartChar: A
 Encoding: 65 65 0
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-200 600 m 5
- 200 0 l 5
- 0 0 l 5
- 0 100 l 5
- 100 100 l 5
- 100 600 l 5
- 200 600 l 5
-400 600 m 5
- 500 600 l 5
- 500 500 l 5
- 400 500 l 5
- 400 600 l 5
-200 700 m 5
- 400 700 l 5
- 400 600 l 5
- 200 600 l 5
- 200 700 l 5
+300 700 m 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 100 l 1
+ 100 100 l 1
+ 100 0 l 1
+ 300 0 l 1
+ 300 600 l 1
+ 500 600 l 1
+ 500 500 l 1
+ 600 500 l 1
+ 600 600 l 1
+ 500 600 l 1
+ 500 700 l 1
+ 300 700 l 1
 EndSplineSet
 Validated: 5
 EndChar
 
 StartChar: B
 Encoding: 66 66 1
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-400 200 m 5
+500 200 m 5
+ 600 200 l 5
+ 600 0 l 5
+ 100 0 l 5
+ 100 100 l 5
+ 500 100 l 5
  500 200 l 5
- 500 0 l 5
- 0 0 l 5
- 0 100 l 5
- 400 100 l 5
+400 300 m 5
+ 500 300 l 5
+ 500 200 l 5
  400 200 l 5
-300 300 m 5
  400 300 l 5
- 400 200 l 5
- 300 200 l 5
+300 700 m 5
+ 400 700 l 5
+ 400 300 l 5
  300 300 l 5
-200 700 m 5
  300 700 l 5
- 300 300 l 5
- 200 300 l 5
- 200 700 l 5
 EndSplineSet
 Validated: 5
 EndChar
 
 StartChar: C
 Encoding: 67 67 2
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 500 m 5
- 100 500 l 5
- 100 300 l 5
+100 500 m 5
+ 200 500 l 5
  200 300 l 5
+ 300 300 l 5
+ 300 0 l 5
  200 0 l 5
- 100 0 l 5
+ 200 200 l 5
  100 200 l 5
- 0 200 l 5
- 0 500 l 5
-0 700 m 5
- 100 700 l 5
+ 100 500 l 5
+100 700 m 5
+ 200 700 l 5
+ 200 600 l 5
  100 600 l 5
- 0 600 l 5
- 0 700 l 5
+ 100 700 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: D
 Encoding: 68 68 3
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 700 m 1
- 500 700 l 1
- 500 600 l 1
- 0 600 l 1
- 0 700 l 1
-300 300 m 1
- 500 300 l 1
- 500 200 l 1
- 300 200 l 1
- 300 300 l 1
-0 500 m 1
- 200 500 l 1
- 200 400 l 1
- 0 400 l 1
- 0 500 l 1
-200 400 m 1
+100 700 m 1
+ 600 700 l 1
+ 600 600 l 1
+ 100 600 l 1
+ 100 700 l 1
+400 300 m 1
+ 600 300 l 1
+ 600 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+100 500 m 1
+ 300 500 l 1
  300 400 l 1
+ 100 400 l 1
+ 100 500 l 1
+300 400 m 1
+ 400 400 l 1
+ 400 300 l 1
  300 300 l 1
- 200 300 l 1
- 200 400 l 1
+ 300 400 l 1
 EndSplineSet
 Validated: 5
 EndChar
 
 StartChar: E
 Encoding: 69 69 4
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 700 m 1
+100 700 m 1
+ 200 700 l 1
+ 200 100 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 100 0 l 1
  100 700 l 1
- 100 100 l 1
- 500 100 l 1
- 500 0 l 1
- 0 0 l 1
- 0 700 l 1
-400 700 m 1
- 500 700 l 1
+500 700 m 1
+ 600 700 l 1
+ 600 600 l 1
  500 600 l 1
- 400 600 l 1
- 400 700 l 1
+ 500 700 l 1
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: F
 Encoding: 70 70 5
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 700 m 5
- 500 700 l 5
- 500 600 l 5
- 0 600 l 5
- 0 700 l 5
-400 500 m 5
- 500 500 l 5
+100 700 m 5
+ 600 700 l 5
+ 600 600 l 5
+ 100 600 l 5
+ 100 700 l 5
+500 500 m 5
+ 600 500 l 5
+ 600 400 l 5
  500 400 l 5
- 400 400 l 5
+ 500 500 l 5
+300 500 m 5
  400 500 l 5
-200 500 m 5
- 300 500 l 5
+ 400 400 l 5
  300 400 l 5
- 200 400 l 5
+ 300 500 l 5
+100 500 m 5
  200 500 l 5
-0 500 m 5
- 100 500 l 5
+ 200 400 l 5
  100 400 l 5
- 0 400 l 5
- 0 500 l 5
+ 100 500 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: G
 Encoding: 71 71 6
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-200 700 m 5
- 300 700 l 5
+300 700 m 5
+ 400 700 l 5
+ 400 0 l 5
  300 0 l 5
- 200 0 l 5
- 200 300 l 5
- 0 300 l 5
- 0 400 l 5
- 200 400 l 5
- 200 700 l 5
+ 300 300 l 5
+ 100 300 l 5
+ 100 400 l 5
+ 300 400 l 5
+ 300 700 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: H
 Encoding: 72 72 7
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 500 m 5
- 500 500 l 5
- 500 400 l 5
- 300 400 l 5
+100 500 m 5
+ 600 500 l 5
+ 600 400 l 5
+ 400 400 l 5
+ 400 0 l 5
  300 0 l 5
- 200 0 l 5
- 200 400 l 5
- 0 400 l 5
- 0 500 l 5
-0 700 m 5
- 500 700 l 5
- 500 600 l 5
- 0 600 l 5
- 0 700 l 5
+ 300 400 l 5
+ 100 400 l 5
+ 100 500 l 5
+100 700 m 5
+ 600 700 l 5
+ 600 600 l 5
+ 100 600 l 5
+ 100 700 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: I
 Encoding: 73 73 8
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 300 m 5
- 100 300 l 5
+100 300 m 5
+ 200 300 l 5
+ 200 0 l 5
  100 0 l 5
- 0 0 l 5
- 0 300 l 5
-0 700 m 5
- 100 700 l 5
+ 100 300 l 5
+100 700 m 5
+ 200 700 l 5
+ 200 400 l 5
  100 400 l 5
- 0 400 l 5
- 0 700 l 5
+ 100 700 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: J
 Encoding: 74 74 9
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 200 m 5
- 100 200 l 5
+100 200 m 5
+ 200 200 l 5
+ 200 0 l 5
  100 0 l 5
- 0 0 l 5
- 0 200 l 5
-0 400 m 5
- 100 400 l 5
+ 100 200 l 5
+100 400 m 5
+ 200 400 l 5
+ 200 300 l 5
  100 300 l 5
- 0 300 l 5
- 0 400 l 5
-0 700 m 5
- 100 700 l 5
+ 100 400 l 5
+100 700 m 5
+ 200 700 l 5
+ 200 500 l 5
  100 500 l 5
- 0 500 l 5
- 0 700 l 5
+ 100 700 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: K
 Encoding: 75 75 10
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-200 700 m 5
- 300 700 l 5
+300 700 m 5
+ 400 700 l 5
+ 400 0 l 5
  300 0 l 5
- 200 0 l 5
- 200 700 l 5
-400 400 m 5
- 500 400 l 5
+ 300 700 l 5
+500 400 m 5
+ 600 400 l 5
+ 600 300 l 5
  500 300 l 5
- 400 300 l 5
- 400 400 l 5
-0 400 m 5
- 100 400 l 5
+ 500 400 l 5
+100 400 m 5
+ 200 400 l 5
+ 200 300 l 5
  100 300 l 5
- 0 300 l 5
- 0 400 l 5
+ 100 400 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: L
 Encoding: 76 76 11
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-200 200 m 5
- 300 200 l 5
+300 200 m 5
+ 400 200 l 5
+ 400 100 l 5
  300 100 l 5
- 200 100 l 5
- 200 200 l 5
-200 600 m 5
- 300 600 l 5
+ 300 200 l 5
+300 600 m 5
+ 400 600 l 5
+ 400 500 l 5
  300 500 l 5
- 200 500 l 5
- 200 600 l 5
-0 700 m 5
- 100 700 l 5
+ 300 600 l 5
+100 700 m 5
+ 200 700 l 5
+ 200 0 l 5
  100 0 l 5
- 0 0 l 5
- 0 700 l 5
+ 100 700 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: M
 Encoding: 77 77 12
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-400 700 m 5
+500 700 m 5
+ 600 700 l 5
+ 600 0 l 5
+ 100 0 l 5
+ 100 100 l 5
+ 500 100 l 5
  500 700 l 5
- 500 0 l 5
- 0 0 l 5
- 0 100 l 5
- 400 100 l 5
- 400 700 l 5
-0 700 m 5
- 100 700 l 5
+100 700 m 5
+ 200 700 l 5
+ 200 600 l 5
  100 600 l 5
- 0 600 l 5
- 0 700 l 5
+ 100 700 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: N
 Encoding: 78 78 13
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-100 100 m 5
+200 100 m 5
+ 200 0 l 5
  100 0 l 5
- 0 0 l 5
- 0 100 l 5
  100 100 l 5
-200 200 m 5
  200 100 l 5
- 100 100 l 5
- 100 200 l 5
+300 200 m 5
+ 300 100 l 5
+ 200 100 l 5
  200 200 l 5
-300 400 m 5
  300 200 l 5
- 200 200 l 5
- 200 400 l 5
+400 400 m 5
+ 400 200 l 5
+ 300 200 l 5
  300 400 l 5
-300 700 m 5
- 400 700 l 5
  400 400 l 5
- 300 400 l 5
- 300 700 l 5
-0 700 m 5
- 100 700 l 5
+400 700 m 5
+ 500 700 l 5
+ 500 400 l 5
+ 400 400 l 5
+ 400 700 l 5
+100 700 m 5
+ 200 700 l 5
+ 200 500 l 5
  100 500 l 5
- 0 500 l 5
- 0 700 l 5
+ 100 700 l 5
 EndSplineSet
 Validated: 5
 EndChar
 
 StartChar: O
 Encoding: 79 79 14
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 700 m 5
- 400 700 l 5
+100 700 m 5
+ 500 700 l 5
+ 500 400 l 5
  400 400 l 5
- 300 400 l 5
- 300 600 l 5
- 0 600 l 5
- 0 700 l 5
-300 400 m 5
+ 400 600 l 5
+ 100 600 l 5
+ 100 700 l 5
+400 400 m 5
+ 400 200 l 5
  300 200 l 5
- 200 200 l 5
- 200 400 l 5
  300 400 l 5
-100 100 m 5
+ 400 400 l 5
+200 100 m 5
+ 200 0 l 5
  100 0 l 5
- 0 0 l 5
- 0 100 l 5
  100 100 l 5
-200 200 m 5
  200 100 l 5
- 100 100 l 5
- 100 200 l 5
+300 200 m 5
+ 300 100 l 5
+ 200 100 l 5
  200 200 l 5
+ 300 200 l 5
 EndSplineSet
 Validated: 5
 EndChar
 
 StartChar: P
 Encoding: 80 80 15
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 500 m 5
- 100 500 l 5
- 100 0 l 5
- 0 0 l 5
- 0 500 l 5
-200 700 m 5
- 300 700 l 5
- 300 200 l 5
- 200 200 l 5
- 200 700 l 5
-200 100 m 5
- 300 100 l 5
- 300 0 l 5
+100 500 m 5
+ 200 500 l 5
  200 0 l 5
- 200 100 l 5
-0 700 m 5
- 100 700 l 5
+ 100 0 l 5
+ 100 500 l 5
+300 700 m 5
+ 400 700 l 5
+ 400 200 l 5
+ 300 200 l 5
+ 300 700 l 5
+300 100 m 5
+ 400 100 l 5
+ 400 0 l 5
+ 300 0 l 5
+ 300 100 l 5
+100 700 m 5
+ 200 700 l 5
+ 200 600 l 5
  100 600 l 5
- 0 600 l 5
- 0 700 l 5
+ 100 700 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: Q
 Encoding: 81 81 16
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 500 m 5
- 500 500 l 5
- 500 0 l 5
- 0 0 l 5
- 0 100 l 5
- 400 100 l 5
- 400 400 l 5
- 0 400 l 5
- 0 500 l 5
-200 700 m 5
- 300 700 l 5
+100 500 m 5
+ 600 500 l 5
+ 600 0 l 5
+ 100 0 l 5
+ 100 100 l 5
+ 500 100 l 5
+ 500 400 l 5
+ 100 400 l 5
+ 100 500 l 5
+300 700 m 5
+ 400 700 l 5
+ 400 600 l 5
  300 600 l 5
- 200 600 l 5
- 200 700 l 5
+ 300 700 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: R
 Encoding: 82 82 17
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-300 100 m 5
- 400 100 l 5
+400 100 m 5
+ 500 100 l 5
+ 500 0 l 5
  400 0 l 5
- 300 0 l 5
- 300 100 l 5
-0 100 m 5
- 100 100 l 5
+ 400 100 l 5
+100 100 m 5
+ 200 100 l 5
+ 200 0 l 5
  100 0 l 5
- 0 0 l 5
- 0 100 l 5
-300 700 m 5
- 400 700 l 5
+ 100 100 l 5
+400 700 m 5
+ 500 700 l 5
+ 500 600 l 5
  400 600 l 5
- 300 600 l 5
- 300 700 l 5
-0 700 m 5
- 100 700 l 5
+ 400 700 l 5
+100 700 m 5
+ 200 700 l 5
+ 200 600 l 5
  100 600 l 5
- 0 600 l 5
- 0 700 l 5
+ 100 700 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: S
 Encoding: 83 83 18
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 700 m 5
- 100 700 l 5
- 100 400 l 5
+100 700 m 5
+ 200 700 l 5
  200 400 l 5
+ 300 400 l 5
+ 300 0 l 5
  200 0 l 5
- 100 0 l 5
+ 200 300 l 5
  100 300 l 5
- 0 300 l 5
- 0 700 l 5
+ 100 700 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: T
 Encoding: 84 84 19
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 700 m 5
- 500 700 l 5
+100 700 m 5
+ 600 700 l 5
+ 600 200 l 5
  500 200 l 5
- 400 200 l 5
- 400 600 l 5
- 0 600 l 5
- 0 700 l 5
-400 100 m 5
- 500 100 l 5
+ 500 600 l 5
+ 100 600 l 5
+ 100 700 l 5
+500 100 m 5
+ 600 100 l 5
+ 600 0 l 5
  500 0 l 5
- 400 0 l 5
- 400 100 l 5
+ 500 100 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: U
 Encoding: 85 85 20
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 410 m 5
- 500 410 l 5
- 500 310 l 5
- 0 310 l 5
- 0 410 l 5
-300 610 m 5
- 400 610 l 5
- 400 510 l 5
- 300 510 l 5
- 300 610 l 5
-100 610 m 5
- 200 610 l 5
- 200 510 l 5
- 100 510 l 5
- 100 610 l 5
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: V
-Encoding: 86 86 21
-Width: 1000
-Flags: H
-LayerCount: 2
-Fore
-SplineSet
-200 700 m 5
- 300 700 l 5
- 300 300 l 5
- 500 300 l 5
- 500 200 l 5
- 0 200 l 5
- 0 300 l 5
- 200 300 l 5
- 200 700 l 5
-0 100 m 5
- 500 100 l 5
- 500 0 l 5
- 0 0 l 5
- 0 100 l 5
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: W
-Encoding: 87 87 22
-Width: 1000
-Flags: H
-LayerCount: 2
-Fore
-SplineSet
-400 310 m 5
- 500 310 l 5
- 500 210 l 5
- 400 210 l 5
- 400 310 l 5
-0 310 m 5
+100 410 m 5
+ 600 410 l 5
+ 600 310 l 5
  100 310 l 5
- 100 210 l 5
- 0 210 l 5
- 0 310 l 5
+ 100 410 l 5
+400 610 m 5
+ 500 610 l 5
+ 500 510 l 5
+ 400 510 l 5
+ 400 610 l 5
 200 610 m 5
  300 610 l 5
  300 510 l 5
@@ -659,107 +608,158 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: X
-Encoding: 88 88 23
-Width: 1000
-Flags: H
+StartChar: V
+Encoding: 86 86 21
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-200 300 m 5
- 200 100 l 5
- 100 100 l 5
- 100 300 l 5
- 200 300 l 5
-400 600 m 5
- 400 400 l 5
- 300 400 l 5
- 300 600 l 5
- 400 600 l 5
-100 100 m 5
- 100 0 l 5
- 0 0 l 5
- 0 100 l 5
- 100 100 l 5
-300 400 m 5
- 300 300 l 5
- 200 300 l 5
- 200 400 l 5
- 300 400 l 5
-400 700 m 5
- 500 700 l 5
- 500 600 l 5
- 400 600 l 5
+300 700 m 5
  400 700 l 5
-0 700 m 5
- 100 700 l 5
+ 400 300 l 5
+ 600 300 l 5
+ 600 200 l 5
+ 100 200 l 5
+ 100 300 l 5
+ 300 300 l 5
+ 300 700 l 5
+100 100 m 5
+ 600 100 l 5
+ 600 0 l 5
+ 100 0 l 5
+ 100 100 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: W
+Encoding: 87 87 22
+Width: 700
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+500 310 m 5
+ 600 310 l 5
+ 600 210 l 5
+ 500 210 l 5
+ 500 310 l 5
+100 310 m 5
+ 200 310 l 5
+ 200 210 l 5
+ 100 210 l 5
+ 100 310 l 5
+300 610 m 5
+ 400 610 l 5
+ 400 510 l 5
+ 300 510 l 5
+ 300 610 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: X
+Encoding: 88 88 23
+Width: 700
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+300 300 m 5
+ 300 100 l 5
+ 200 100 l 5
+ 200 300 l 5
+ 300 300 l 5
+500 600 m 5
+ 500 400 l 5
+ 400 400 l 5
+ 400 600 l 5
+ 500 600 l 5
+200 100 m 5
+ 200 0 l 5
+ 100 0 l 5
+ 100 100 l 5
+ 200 100 l 5
+400 400 m 5
+ 400 300 l 5
+ 300 300 l 5
+ 300 400 l 5
+ 400 400 l 5
+500 700 m 5
+ 600 700 l 5
+ 600 600 l 5
+ 500 600 l 5
+ 500 700 l 5
+100 700 m 5
+ 200 700 l 5
+ 200 600 l 5
  100 600 l 5
- 0 600 l 5
- 0 700 l 5
+ 100 700 l 5
 EndSplineSet
 Validated: 5
 EndChar
 
 StartChar: Y
 Encoding: 89 89 24
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-200 700 m 5
- 300 700 l 5
+300 700 m 5
+ 400 700 l 5
+ 400 0 l 5
  300 0 l 5
- 200 0 l 5
+ 300 700 l 5
+100 700 m 5
  200 700 l 5
-0 700 m 5
- 100 700 l 5
+ 200 0 l 5
  100 0 l 5
- 0 0 l 5
- 0 700 l 5
+ 100 700 l 5
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: Z
 Encoding: 90 90 25
-Width: 1000
-Flags: H
+Width: 700
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-400 500 m 5
- 500 500 l 5
+500 500 m 5
+ 600 500 l 5
+ 600 0 l 5
  500 0 l 5
- 400 0 l 5
- 400 500 l 5
-100 500 m 5
+ 500 500 l 5
+200 500 m 5
+ 200 0 l 5
  100 0 l 5
- 0 0 l 5
- 0 500 l 5
  100 500 l 5
-300 600 m 5
- 400 600 l 5
- 400 500 l 5
- 300 500 l 5
- 300 600 l 5
-200 600 m 5
  200 500 l 5
- 100 500 l 5
- 100 600 l 5
+400 600 m 5
+ 500 600 l 5
+ 500 500 l 5
+ 400 500 l 5
+ 400 600 l 5
+300 600 m 5
+ 300 500 l 5
+ 200 500 l 5
  200 600 l 5
-200 700 m 5
- 300 700 l 5
  300 600 l 5
- 200 600 l 5
- 200 700 l 5
+300 700 m 5
+ 400 700 l 5
+ 400 600 l 5
+ 300 600 l 5
+ 300 700 l 5
 EndSplineSet
 Validated: 5
 EndChar
 
 StartChar: a
 Encoding: 97 97 26
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -769,7 +769,7 @@ EndChar
 
 StartChar: b
 Encoding: 98 98 27
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -779,7 +779,7 @@ EndChar
 
 StartChar: c
 Encoding: 99 99 28
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -789,7 +789,7 @@ EndChar
 
 StartChar: d
 Encoding: 100 100 29
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -799,7 +799,7 @@ EndChar
 
 StartChar: e
 Encoding: 101 101 30
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -809,7 +809,7 @@ EndChar
 
 StartChar: f
 Encoding: 102 102 31
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -819,7 +819,7 @@ EndChar
 
 StartChar: g
 Encoding: 103 103 32
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -829,7 +829,7 @@ EndChar
 
 StartChar: h
 Encoding: 104 104 33
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -839,7 +839,7 @@ EndChar
 
 StartChar: i
 Encoding: 105 105 34
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -849,7 +849,7 @@ EndChar
 
 StartChar: j
 Encoding: 106 106 35
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -859,7 +859,7 @@ EndChar
 
 StartChar: k
 Encoding: 107 107 36
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -869,7 +869,7 @@ EndChar
 
 StartChar: l
 Encoding: 108 108 37
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -879,7 +879,7 @@ EndChar
 
 StartChar: m
 Encoding: 109 109 38
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -889,7 +889,7 @@ EndChar
 
 StartChar: n
 Encoding: 110 110 39
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -899,7 +899,7 @@ EndChar
 
 StartChar: o
 Encoding: 111 111 40
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -909,7 +909,7 @@ EndChar
 
 StartChar: p
 Encoding: 112 112 41
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -919,7 +919,7 @@ EndChar
 
 StartChar: q
 Encoding: 113 113 42
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -929,7 +929,7 @@ EndChar
 
 StartChar: r
 Encoding: 114 114 43
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -939,7 +939,7 @@ EndChar
 
 StartChar: s
 Encoding: 115 115 44
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -949,7 +949,7 @@ EndChar
 
 StartChar: t
 Encoding: 116 116 45
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -959,7 +959,7 @@ EndChar
 
 StartChar: u
 Encoding: 117 117 46
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -969,7 +969,7 @@ EndChar
 
 StartChar: v
 Encoding: 118 118 47
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -979,7 +979,7 @@ EndChar
 
 StartChar: w
 Encoding: 119 119 48
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -989,7 +989,7 @@ EndChar
 
 StartChar: x
 Encoding: 120 120 49
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -999,7 +999,7 @@ EndChar
 
 StartChar: y
 Encoding: 121 121 50
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
@@ -1009,7 +1009,7 @@ EndChar
 
 StartChar: z
 Encoding: 122 122 51
-Width: 1000
+Width: 700
 Flags: HW
 LayerCount: 2
 Fore
