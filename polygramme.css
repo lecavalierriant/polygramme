@@ -1,25 +1,3 @@
-/* Aurebesh  */
-
-.aurebesh {font-family: "aurebesh";}
-
-@font-face {
-	font-family: "aurebesh";
-	src: url("star-wars/aurebesh.ttf");
-}
-
-/* Deutsche Uncialis */
-
-.deutsche-uncialis *, .deutsche-uncialis {font-family: "deutsche uncialis";}
-.deutsche-uncialis *:first-letter, .deutsche-uncialis:first-letter {
-	color: indianred;
-	font-size: 2em;
-}
-
-@font-face {
-	font-family: "deutsche uncialis";
-	src: url("externes/deutsche-uncialis.ttf");
-}
-
 /* Héraldix  */
 
 .heraldix img {
