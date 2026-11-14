@@ -1,0 +1,19 @@
+<svg xmlns = "http://www.w3.org/2000/svg" width = "185" height = "270">
+<style>* {fill: #ade; stroke: #000; stroke-width: 10px; stroke-linejoin: round;} .vide {fill: none;}</style>
+
+<g>
+	<polygon points = "10,250 85,250"/>
+	<path
+		d = "
+			M 135,50 85,50 85,250
+			A 40,50 0 0 0 135,200 L 135,50
+		"
+	/>
+</g>
+
+<g>
+	<polygon points = "45,50 175,50"/>
+	<polygon points = "10,210 10,250"/>
+</g>
+
+</svg>
