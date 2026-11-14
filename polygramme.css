@@ -2,86 +2,42 @@
 
 .heraldix img {
 	border-radius: 0;
-	margin-top: 7.5px;
-	height: 25px;
+	margin-top: 0.3px;
+	height: 1em;
 }
 .heraldix .haut {
 	margin-top: 0;
-	height: 31.5px;
+	height: 1.25em;
 }
 .heraldix .bas {
-	margin-bottom: -6.46px;
-	height: 31.5px;
+	margin-bottom: -0.25em;
+	height: 1.25em;
 }
 
-h1.heraldix img {
-	margin-top: 15px;
-	height: 50px;
-}
-h1.heraldix .haut {
-	margin-top: 0;
-	height: 63px;
-}
-h1.heraldix .bas {
-	margin-bottom: -12.5px;
-	height: 63px;
-}
+.heraldix .décalage {margin-left: -0.1em;}
+.heraldix .petit-décalage {margin-left: -0.05em;}
 
-h2.heraldix img {
-	margin: 9px 0 -1px 0;
-	height: 30px;
-}
-h2.heraldix .haut {
-	height: 37.8px;
-}
-h2.heraldix .bas {
-	margin-bottom: -7.5px;
-	height: 37.8px;
-}
-
-.heraldix .décalage {margin-left: -10px;}
-.heraldix .petit-décalage {margin-left: -5px;}
-
-.heraldix .espace {margin: 0 15px 0 15px;}
+.heraldix .espace {margin: 0 0.2em 0 0.2em;}
 
 /* Linéaire */
 
 .lineaire img {
 	pointer-events: none;
-	filter: invert(1) drop-shadow(1px 1px 1px #000);
+	/*filter: invert(1) drop-shadow(1px 1px 1px #000);*/
+	filter: invert(1);
 	border-radius: 0;
 }
 .lineaire.italic,
 .lineaire i {transform: skew(-25deg);}
 
-h1.lineaire img {height: 70px;}
-h1.lineaire .haut {
-	height: 83px;
-	margin-top: -13px;
+.lineaire img {height: 1em;}
+.lineaire .haut {
+	height: 1.2em;
+	margin-top: -0.2em;
 }
-h1.lineaire .bas {
-	height: 83px;
-	margin-bottom: -13px;
-}
-
-h2.lineaire img {height: 50px;}
-h2.lineaire .haut {
-	height: 59px;
-	margin-top: -9px;
-}
-h2.lineaire .bas {
-	height: 59px;
-	margin-bottom: -9px;
+.lineaire .bas {
+	height: 1.2em;
+	margin-bottom: -0.2em;
 }
 
-p.lineaire img {height: 20px;}
-p.lineaire .haut {
-	height: 24px;
-	margin-top: -4px;
-}
-p.lineaire .bas {
-	height: 24px;
-	margin-bottom: -4px;
-}
-
-.lineaire .espace {margin: 0 5px 0 5px;}
+.lineaire .espace {margin: 0 0.2em 0 0.2em;}
